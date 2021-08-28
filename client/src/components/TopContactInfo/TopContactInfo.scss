@@ -1,0 +1,80 @@
+@import '../../App.scss';
+
+.top-contact-info {
+    width: 100%;
+    height: 40px;
+    background-color: $black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid $thirdColor;
+
+    .social-bar {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            cursor: pointer;
+            margin-left: 10px;
+
+            :hover {
+                color: $primaryColor;
+            }
+        }
+    }
+
+    .contact-bar {
+        width: 400px;
+        height: auto;
+        display: flex;
+
+        .phone-bar {
+            display: flex;
+            color: white;
+            align-items: center;
+
+            p {
+                margin-left: 5px;
+            }
+        }
+
+        .mail-bar {
+            display: flex;
+            color: white;
+            align-items: center;
+            margin-left: 15px;
+
+            p {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .icon {
+        color: $white;
+    }
+
+    @media screen and (max-width: 600px) {
+        .icon {
+            width: 18px;
+        }
+
+        .social-bar {
+            width: auto;
+            margin-left: 5px;
+
+            .icon {
+                margin-left: 5px;
+            }
+        }
+
+        .contact-bar {
+            width: auto;
+            margin-right: 5px;
+
+            p {
+                font-size: 13px;
+            }
+        }
+
+    }
+}

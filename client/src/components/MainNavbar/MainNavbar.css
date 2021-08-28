@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dadada;
+}
+
+.main-navbar {
+  width: 100%;
+  background-color: #16161D;
+  height: 40px;
+  margin: 0;
+  border-top: 2px solid #FBB722;
+}
+.main-navbar ul {
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 30%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.main-navbar ul li a {
+  color: red;
+  text-decoration: none;
+}/*# sourceMappingURL=MainNavbar.css.map */

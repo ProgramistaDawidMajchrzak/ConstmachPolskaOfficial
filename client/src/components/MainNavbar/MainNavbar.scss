@@ -1,0 +1,28 @@
+@import '../../App.scss';
+
+.main-navbar {
+    width: 100%;
+    background-color: $black;
+    height: 40px;
+    margin: 0;
+    border-top: 2px solid $thirdColor;
+
+    ul {
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        width: 30%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        li {
+            a {
+                color: red;
+                text-decoration: none;
+            }
+        }
+    }
+}

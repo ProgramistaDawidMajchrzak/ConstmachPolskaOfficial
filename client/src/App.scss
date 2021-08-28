@@ -1,0 +1,19 @@
+// :root {
+//     --primaryColor: #6EB2BC;
+//     --secondaryColor: #323A45;
+//     --thirdColor: #FB8722;
+//     --black: #16161D;
+//     --white: #dadada;
+// }
+$primaryColor: #6EB2BC;
+$secondaryColor: #323A45;
+$thirdColor: #FBB722;
+$black: #16161D;
+$white: #dadada;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $white;
+}
