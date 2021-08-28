@@ -1,4 +1,18 @@
-.logo {
-    height: 120px;
-    background-color: yellow;
+.logo-container {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    img {
+        width: auto;
+        height: 100px;
+    }
+
+    .slider {
+        width: 1000px;
+        background-color: yellow;
+        height: 90%;
+    }
 }

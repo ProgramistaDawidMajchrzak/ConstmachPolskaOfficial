@@ -1,4 +1,24 @@
-.logo {
-  height: 120px;
+.logo-container {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.logo-container img {
+  width: auto;
+  height: 100px;
+}
+
+.logo-container .slider {
+  width: 1000px;
   background-color: yellow;
-}/*# sourceMappingURL=Header.css.map */
+  height: 90%;
+}
+/*# sourceMappingURL=Header.css.map */
