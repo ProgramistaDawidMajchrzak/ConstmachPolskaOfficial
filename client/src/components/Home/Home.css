@@ -14,8 +14,7 @@ body {
 }
 .home-container .home-box {
   width: 44%;
-  height: 400px;
-  background-color: royalblue;
+  height: auto;
   margin: 40px 0 0 4%;
 }
 .home-container .home-title-box {

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import HomeContact from './HomeContact/HomeContact'
 
 export default function Home() {
     return (
@@ -14,10 +15,11 @@ export default function Home() {
                         Zakład produkcyjny CONSTMACH o powierzchni 5.000 m2 usytuowany jest ANKARZE, która jest stolicą TURCJI.
                         <br />
                         <br />
-                        Nasza firma eksportuje węzły i urządzenia do ponad trzydziestu krajów na czterech kontynentach. Wśród naszych klientów są firmy i odbiorcy z Holandii, Szwajcarii, Ukrainy, Bułgarii, Słowenii, Słowacji, Serbii, Szwecji, Węgier, Rumunii, Łotwy, Egiptu, Algierii, Tunezji, Maroka, Iraku, Libanu, Jordanii, Omanu, Gruzji, Kazachstanu, Kamerunu, Kenii, Nigerii, Gwinei i Somalii i wielu innych. Kliknij, aby dowiedzieć się więcej</p>
+                        Nasza firma eksportuje węzły i urządzenia do ponad trzydziestu krajów na czterech kontynentach. Wśród naszych klientów są firmy i odbiorcy z Holandii, Szwajcarii, Ukrainy, Bułgarii, Słowenii, Słowacji, Serbii, Szwecji, Węgier, Rumunii, Łotwy, Egiptu, Algierii, Tunezji, Maroka, Iraku, Libanu, Jordanii, Omanu, Gruzji, Kazachstanu, Kamerunu, Kenii, Nigerii, Gwinei i Somalii i wielu innych.</p>
                 </div>
                 <div className="home-contact home-box">
                     <div className="home-title-box"><p>Kontakt</p></div>
+                    <HomeContact />
                 </div>
                 <div className="home-asked-questions home-box">
                     <div className="home-title-box"><p>Najczęściej zadawane pytania</p></div>

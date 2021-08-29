@@ -1,2 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dadada;
+  font-family: dunbar-tall, sans-serif;
+}
 
-/*# sourceMappingURL=HomeContact.css.map *//*# sourceMappingURL=HomeContact.css.map */
+.home-contact-form {
+  width: 100%;
+  height: auto;
+}
+.home-contact-form .home-contact-flex {
+  display: flex;
+  flex-direction: row;
+  width: 94%;
+  justify-content: space-between;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.home-contact-form .home-contact-flex .home-contact-form-element {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.home-contact-form .home-contact-flex .home-contact-form-element input {
+  padding: 10px 30px;
+  margin-top: 5px;
+}
+.home-contact-form .home-contact-form-element-textarea {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.home-contact-form .home-contact-form-element-textarea textarea {
+  margin-top: 5px;
+}
+.home-contact-form .home-contact-form-btn {
+  background-color: #6EB2BC;
+  margin: 3%;
+  padding: 4px 8px;
+  border: 1px solid #16161D;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+.home-contact-form .home-contact-form-btn :hover {
+  background-color: red;
+}/*# sourceMappingURL=HomeContact.css.map */
