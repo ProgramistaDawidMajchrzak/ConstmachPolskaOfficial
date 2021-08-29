@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #dadada;
+  font-family: dunbar-tall, sans-serif;
 }
 
 .top-contact-info {
@@ -31,20 +32,18 @@ body {
 }
 .top-contact-info .contact-bar .phone-bar {
   display: flex;
-  color: white;
+  color: #dadada;
   align-items: center;
-}
-.top-contact-info .contact-bar .phone-bar p {
-  margin-left: 5px;
 }
 .top-contact-info .contact-bar .mail-bar {
   display: flex;
-  color: white;
+  color: #dadada;
   align-items: center;
   margin-left: 15px;
 }
-.top-contact-info .contact-bar .mail-bar p {
+.top-contact-info .contact-bar p {
   margin-left: 5px;
+  font-size: 13px;
 }
 .top-contact-info .icon {
   color: #dadada;
@@ -63,8 +62,5 @@ body {
   .top-contact-info .contact-bar {
     width: auto;
     margin-right: 5px;
-  }
-  .top-contact-info .contact-bar p {
-    font-size: 13px;
   }
 }/*# sourceMappingURL=TopContactInfo.css.map */
