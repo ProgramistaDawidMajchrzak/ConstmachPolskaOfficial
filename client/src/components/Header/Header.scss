@@ -15,4 +15,30 @@
         background-color: yellow;
         height: 90%;
     }
+
+    @media screen and (max-width: 1200px) {
+        .logo-container {
+            flex-direction: column;
+
+            img {
+                height: 70px;
+            }
+
+            .slider {
+                width: 500px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            img {
+                height: 70px;
+            }
+
+            .slider {
+                width: 500px;
+            }
+        }
+    }
+
+
 }

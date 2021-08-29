@@ -21,4 +21,28 @@
   background-color: yellow;
   height: 90%;
 }
+
+@media screen and (max-width: 1200px) {
+  .logo-container .logo-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo-container .logo-container img {
+    height: 70px;
+  }
+  .logo-container .logo-container .slider {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (max-width: 600px) {
+  .logo-container img {
+    height: 70px;
+  }
+  .logo-container .slider {
+    width: 500px;
+  }
+}
 /*# sourceMappingURL=Header.css.map */
