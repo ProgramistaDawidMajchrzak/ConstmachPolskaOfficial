@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import HomeContact from './HomeContact/HomeContact'
+import HomeContact from './HomeContact/HomeContact';
+import FAQ from './FAQ/FAQ.js';
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
                 </div>
                 <div className="home-asked-questions home-box">
                     <div className="home-title-box"><p>Najczęściej zadawane pytania</p></div>
+                    <FAQ />
                 </div>
                 <div className="home-latest-news home-box">
                     <div className="home-title-box"><p>Ostatnie zrealizowane projekty</p></div>
