@@ -1,4 +1,4 @@
-@import '../../App.scss';
+@import '../../../App.scss';
 
 .top-contact-info {
     width: 100%;
@@ -29,23 +29,21 @@
 
         .phone-bar {
             display: flex;
-            color: white;
+            color: $white;
             align-items: center;
 
-            p {
-                margin-left: 5px;
-            }
         }
 
         .mail-bar {
             display: flex;
-            color: white;
+            color: $white;
             align-items: center;
             margin-left: 15px;
+        }
 
-            p {
-                margin-left: 5px;
-            }
+        p {
+            margin-left: 5px;
+            font-size: 13px;
         }
     }
 
@@ -70,10 +68,6 @@
         .contact-bar {
             width: auto;
             margin-right: 5px;
-
-            p {
-                font-size: 13px;
-            }
         }
 
     }

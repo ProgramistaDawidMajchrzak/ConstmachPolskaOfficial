@@ -1,54 +1,81 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #dadada;
+  font-family: dunbar-tall, sans-serif;
 }
 
 .top-contact-info {
   width: 100%;
   height: 40px;
   background-color: #16161D;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-bottom: 2px solid #FBB722;
 }
+
 .top-contact-info .social-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .top-contact-info .social-bar .icon {
   cursor: pointer;
   margin-left: 10px;
 }
+
 .top-contact-info .social-bar .icon :hover {
   color: #6EB2BC;
 }
+
 .top-contact-info .contact-bar {
   width: 400px;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .top-contact-info .contact-bar .phone-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  color: white;
-  align-items: center;
+  color: #dadada;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.top-contact-info .contact-bar .phone-bar p {
-  margin-left: 5px;
-}
+
 .top-contact-info .contact-bar .mail-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  color: white;
-  align-items: center;
+  color: #dadada;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 15px;
 }
-.top-contact-info .contact-bar .mail-bar p {
+
+.top-contact-info .contact-bar p {
   margin-left: 5px;
+  font-size: 13px;
 }
+
 .top-contact-info .icon {
   color: #dadada;
 }
+
 @media screen and (max-width: 600px) {
   .top-contact-info .icon {
     width: 18px;
@@ -64,7 +91,5 @@ body {
     width: auto;
     margin-right: 5px;
   }
-  .top-contact-info .contact-bar p {
-    font-size: 13px;
-  }
-}/*# sourceMappingURL=TopContactInfo.css.map */
+}
+/*# sourceMappingURL=TopContactInfo.css.map */
