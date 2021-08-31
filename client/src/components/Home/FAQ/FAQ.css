@@ -48,14 +48,20 @@ body {
 .home-faq .home-faq-element .home-faq-answer {
   margin: 0;
   width: 100%;
-  height: auto;
+  height: 0;
+  opacity: 0;
   background-color: #6EB2BC;
   border-radius: 0 0 5px 5px;
   position: relative;
   top: -5px;
+  transition: all 0.5s ease-in-out;
 }
 .home-faq .home-faq-element .home-faq-answer p {
   margin: 0;
   padding: 10px;
   padding-left: 25px;
+}
+.home-faq .home-faq-element .show {
+  height: auto;
+  opacity: 1;
 }/*# sourceMappingURL=FAQ.css.map */

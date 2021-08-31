@@ -45,17 +45,24 @@
         .home-faq-answer {
             margin: 0;
             width: 100%;
-            height: auto;
+            height: 0;
+            opacity: 0;
             background-color: $primaryColor;
             border-radius: 0 0 5px 5px;
             position: relative;
             top: -5px;
+            transition: all .5s ease-in-out;
 
             p {
                 margin: 0;
                 padding: 10px;
                 padding-left: 25px;
             }
+        }
+
+        .show {
+            height: auto;
+            opacity: 1;
         }
     }
 }
