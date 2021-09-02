@@ -1,0 +1,412 @@
+[
+    {
+        "title": "STACJONARNE WĘZŁY BETONIARSKIE",
+        "id": 1,
+        "elements": [
+            {
+                "title": "STATIONARY 60",
+                "id": 1,
+                "path": "/STATIONARY 60"
+            },
+            {
+                "title": "STATIONARY 100",
+                "id": 2,
+                "path": "/STATIONARY 100"
+            },
+            {
+                "title": "STATIONARY 120",
+                "id": 3,
+                "path": "/STATIONARY 120"
+            },
+            {
+                "title": "STATIONARY 160",
+                "id": 4,
+                "path": "/STATIONARY 160"
+            },
+            {
+                "title": "STATIONARY 240",
+                "id": 5,
+                "path": "/STATIONARY 240"
+            },
+            {
+                "title": "DOUBLE MIX 60",
+                "id": 6,
+                "path": "/DOUBLE MIX 60"
+            },
+            {
+                "title": "DOUBLE MIX 100",
+                "id": 7,
+                "path": "/DOUBLE MIX 100"
+            },
+            {
+                "title": "DRY MIX 60",
+                "id": 8,
+                "path": "/DRY MIX 60"
+            },
+            {
+                "title": "DRY MIX 100",
+                "id": 9,
+                "path": "/DRY MIX 100"
+            }
+        ]
+    },
+    {
+        "title": "MOBILNE WĘZŁY BETONIARSKIE",
+        "id": 2,
+        "elements": [
+            {
+                "title": "MOBILE 30",
+                "id": 1,
+                "path": "/MOBILE 30"
+            },
+            {
+                "title": "MOBILE 60",
+                "id": 2,
+                "path": "/MOBILE 60"
+            },
+            {
+                "title": "MOBILE 100",
+                "id": 3,
+                "path": "/MOBILE 100"
+            },
+            {
+                "title": "MOBILE 120",
+                "id": 4,
+                "path": "/MOBILE 120"
+            },
+            {
+                "title": "MOBICOM 30",
+                "id": 5,
+                "path": "/MOBCOM 30"
+            },
+            {
+                "title": "MOBICOM 45",
+                "id": 6,
+                "path": "/MOBCOM 45"
+            },
+            {
+                "title": "PRZENOŚNIKI PODAJĄCE",
+                "id": 7,
+                "path": "/PRZENOŚNIKI PODAJĄCE"
+            }
+        ]
+    },
+    {
+        "title": "KOMPAKTOWE WĘZŁY BETONIARSKIE",
+        "id": 3,
+        "elements": [
+            {
+                "title": "COMPACT 20",
+                "id": 1,
+                "path": "/COMPACT 20"
+            },
+            {
+                "title": "COMPACT 30",
+                "id": 2,
+                "path": "/COMPACT 30"
+            },
+            {
+                "title": "COMPACT 60",
+                "id": 3,
+                "path": "/COMPACT 60"
+            },
+            {
+                "title": "COMPACT 100",
+                "id": 4,
+                "path": "/COMPACT 100"
+            }
+        ]
+    },
+    {
+        "title": "MIESZARKI DO BETONU",
+        "id": 4,
+        "elements": [
+            {
+                "title": "MIESZALNIKI DWUWAŁOWE",
+                "id": 1,
+                "path": "/MIESZALNIKI DWUWAŁOWE"
+            },
+            {
+                "title": "MIESZALNIKI JEDNOWAŁOWE",
+                "id": 2,
+                "path": "/MIESZALNIKI JEDNOWAŁOWE"
+            },
+            {
+                "title": "MIESZALNIKI PLANETARNE",
+                "id": 3,
+                "path": "/MIESZALNIKI PLANETARNE"
+            },
+            {
+                "title": "MIESZALNIKI TALERZOWE",
+                "id": 4,
+                "path": "/MIESZALNIKI TALERZOWE"
+            }
+        ]
+    },
+    {
+        "title": "LINIE DO KRUSZENIA I PRZESIEWANIA",
+        "id": 5,
+        "elements": [
+            {
+                "title": "LINIE DO KRUSZENIA I PRZESIEWANIA",
+                "id": 1,
+                "path": "/LINIE DO KRUSZENIA I PRZESIEWANIA"
+            },
+            {
+                "title": "KRUSZARKI SZCZĘKOWE",
+                "id": 2,
+                "path": "/KRUSZARKI SZCZĘKOWE"
+            },
+            {
+                "title": "KRUSZARKI UDAROWE PIERWSZEGO STOPNIA",
+                "id": 3,
+                "path": "/KRUSZARKI UDAROWE PIERWSZEGO STOPNIA"
+            },
+            {
+                "title": "KRUSZARKI UDAROWE DRUGIEGO STOPNIA",
+                "id": 4,
+                "path": "/KRUSZARKI UDAROWE DRUGIEGO STOPNIA"
+            },
+            {
+                "title": "KRUSZARKI STOŻKOWE",
+                "id": 5,
+                "path": "/KRUSZARKI STOŻKOWE"
+            },
+            {
+                "title": "KRUSZARKI UDAROWE TRZECIEGO STOPNIA",
+                "id": 6,
+                "path": "/KRUSZARKI UDAROWE TRZECIEGO STOPNIA"
+            },
+            {
+                "title": "KRUSZARKI UDAROWE Z PIONOWYM WAŁEM",
+                "id": 7,
+                "path": "/KRUSZARKI UDAROWE Z PIONOWYM WAŁEM"
+            },
+            {
+                "title": "PRZENOŚNIKI TAŚMOWE",
+                "id": 8,
+                "path": "/PRZENOŚNIKI TAŚMOWE"
+            },
+            {
+                "title": "PODAJNIKI WIBRACYJNE",
+                "id": 9,
+                "path": "/PODAJNIKI WIBRACYJNE"
+            },
+            {
+                "title": "PRZESIEWACZE WIBRACYJNE",
+                "id": 10,
+                "path": "/PRZESIEWACZE WIBRACYJNE"
+            }
+        ]
+    },
+    {
+        "title": "MOBILNE KRUSZARKI",
+        "id": 6,
+        "elements": [
+            {
+                "title": "MOBILNE KRUSZARKI SKAŁ TWARDYCH",
+                "id": 1,
+                "path": "/MOBILNE KRUSZARKI SKAŁ TWARDYCH",
+                "elements": [
+                    {
+                        "title": "JC-1 MOBILNE KRUSZARKI"
+                    },
+                    {
+                        "title": "JC-2 MOBILNE KRUSZARKI"
+                    },
+                    {
+                        "title": "JC-3 MOBILNE KRUSZARKI"
+                    },
+                    {
+                        "title": "JCV-1 MOBILNE KRUSZARKI"
+                    },
+                    {
+                        "title": "JCV-2 MOBILNE KRUSZARKI"
+                    },
+                    {
+                        "title": "JCV-3 MOBILNE KRUSZARKI"
+                    }
+                ]
+            },
+            {
+                "title": "MOBILNE KRUSZARKI SZCZĘKOWE I UDAROWE",
+                "id": 2,
+                "path": "/MOBILNE KRUSZARKI SZCZĘKOWE I UDAROWE",
+                "elements": [
+                    {
+                        "title": "JT-1 MOBILNE KRUSZARKI"
+                    },
+                    {
+                        "title": "JS-2 MOBILNE KRUSZARKI"
+                    },
+                    {
+                        "title": "JS-3 MOBILNE KRUSZARKI"
+                    }
+                ]
+            },
+            {
+                "title": "MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                "id": 3,
+                "path": "/MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                "elements": [
+                    {
+                        "title": "V-70 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                    },
+                    {
+                        "title": "V-75 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                    },
+                    {
+                        "title": "V-80 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                    },
+                    {
+                        "title": "V-90 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                    },
+                    {
+                        "title": "V-100 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                    },
+                    {
+                        "title": "V-120 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                    },
+                    {
+                        "title": "V-150 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "MOBILNE KRUSZARKI WAPIENIA",
+        "id": 7,
+        "elements": [
+            {
+                "title": "PI-1 MOBILNE KRUSZARKI WAPIENIA",
+                "id": 1,
+                "path": "/PI-1 MOBILNE KRUSZARKI WAPIENIA"
+            },
+            {
+                "title": "PI-2 MOBILNE KRUSZARKI WAPIENIA",
+                "id": 2,
+                "path": "/PI-2 MOBILNE KRUSZARKI WAPIENIA"
+                
+            }
+        ]
+    },
+    {
+        "title": "SYSTEMY DO MYCIA PIASKU",
+        "id": 8,
+        "elements": [
+            {
+                "title": "STACJONARNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA",
+                "id": 1,
+                "path": "/STACJONARNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA"
+            },
+            {
+                "title": "MOBILNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA",   
+                "id": 2,
+                "path": "/MOBILNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA"
+            },
+            {
+                "title": "PŁUCZKI ŚRUBOWE",
+                "id": 3,
+                "path": "/PŁUCZKI ŚRUBOWE"
+            },
+            {
+                "title": "PŁUCZKI KOŁOWE (KUBEŁKOWE)",
+                "id": 4,
+                "path": "/PŁUCZKI KOŁOWE (KUBEŁKOWE)"
+            },
+            {
+                "title": "PRZESIEWACZE ODWADNIAJĄCE I HYDROCYKLONY",
+                "id": 5,
+                "path": "/PRZESIEWACZE ODWADNIAJĄCE I HYDROCYKLONY"
+            }
+        ]
+    },
+    {
+        "title": "MASZYNY DO BLOCZKÓW BETONOWYCH",
+        "id": 9,
+        "elements": [
+            {
+                "title": "BS-20 MASZYNY DO BLOCZKÓW BETONOWYCH",
+                "id": 1,
+                "path": "/BS-20 MASZYNY DO BLOCZKÓW BETONOWYCH"
+            },
+            {
+                "title": "BS-25 MASZYNY DO BLOCZKÓW BETONOWYCH",
+                "id": 2,
+                "path": "/BS-25 MASZYNY DO BLOCZKÓW BETONOWYCH"
+            },
+            {
+                "title": "BS-30 MASZYNY DO BLOCZKÓW BETONOWYCH",
+                "id": 3,
+                "path": "/BS-30 MASZYNY DO BLOCZKÓW BETONOWYCH"
+            },
+            {
+                "title": "BS-36 MASZYNY DO BLOCZKÓW BETONOWYCH",
+                "id": 4,
+                "path": "/BS-36 MASZYNY DO BLOCZKÓW BETONOWYCH"
+            },
+            {
+                "title": "BS-42 MASZYNY DO BLOCZKÓW BETONOWYCH",
+                "id": 5,
+                "path": "/BS-42 MASZYNY DO BLOCZKÓW BETONOWYCH"
+            },
+            {
+                "title": "PRZEJEZDNA MASZYNA DO PRODUKCJI PUSTAKÓW",
+                "id": 6,
+                "path": "/PRZEJEZDNA MASZYNA DO PRODUKCJI PUSTAKÓW"
+            }
+        ]
+    },
+    {
+        "title": "SILOSY NA CEMENT",
+        "id": 10,
+        "elements": [
+            {
+                "title": "CS-50 SILOSY NA CEMENT",
+                "id": 1,
+                "path": "/CS-50 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-75 SILOSY NA CEMENT",
+                "id": 2,
+                "path": "/CS-75 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-100 SILOSY NA CEMENT",
+                "id": 3,
+                "path": "/CS-100 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-200 SILOSY NA CEMENT",
+                "id": 4,
+                "path": "/CS-200 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-300 SILOSY NA CEMENT",
+                "id": 5,
+                "path": "/CS-300 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-500 SILOSY NA CEMENT",
+                "id": 6,
+                "path": "/CS-500 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-1000 SILOSY NA CEMENT",
+                "id": 7,
+                "path": "/CS-1000 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-2000 SILOSY NA CEMENT",
+                "id": 8,
+                "path": "/CS-2000 SILOSY NA CEMENT"
+            },
+            {
+                "title": "CS-3000 SILOSY NA CEMENT",
+                "id": 9,
+                "path": "/CS-3000 SILOSY NA CEMENT"
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,MAAM;EACxB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,CAAC;CACX",
+    "sources": [
+        "ProductBox.scss"
+    ],
+    "names": [],
+    "file": "ProductBox.css"
+}

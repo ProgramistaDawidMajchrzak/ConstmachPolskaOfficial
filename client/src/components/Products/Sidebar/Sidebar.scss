@@ -1,0 +1,19 @@
+@import '../../../App.scss';
+
+.sidebar-container {
+    width: 400px;
+    height: 700px;
+
+    position: absolute;
+
+    .sidebar-box {
+        width: 300px;
+        height: auto;
+        background-color: $secondaryColor;
+        margin-left: 50px;
+        margin-top: 50px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+}

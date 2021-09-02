@@ -3,6 +3,7 @@
 .home-contact-form {
     width: 100%;
     height: auto;
+    margin-top: 10px;
 
     .home-contact-flex {
         display: flex;
@@ -49,9 +50,6 @@
         cursor: pointer;
         color: white;
 
-        :hover {
-            background-color: red;
-        }
     }
 
 }

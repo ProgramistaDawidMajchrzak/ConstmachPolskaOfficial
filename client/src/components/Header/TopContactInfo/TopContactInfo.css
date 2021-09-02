@@ -3,7 +3,7 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #dadada;
+  background-color: #f1f1f1;
   font-family: dunbar-tall, sans-serif;
 }
 
@@ -50,7 +50,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #dadada;
+  color: #f1f1f1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -60,7 +60,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #dadada;
+  color: #f1f1f1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -73,7 +73,7 @@ body {
 }
 
 .top-contact-info .icon {
-  color: #dadada;
+  color: #f1f1f1;
 }
 
 @media screen and (max-width: 600px) {

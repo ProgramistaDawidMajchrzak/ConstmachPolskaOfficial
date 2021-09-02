@@ -3,13 +3,14 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #dadada;
+  background-color: #f1f1f1;
   font-family: dunbar-tall, sans-serif;
 }
 
 .home-contact-form {
   width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 
 .home-contact-form .home-contact-flex {
@@ -74,9 +75,5 @@ body {
   outline: none;
   cursor: pointer;
   color: white;
-}
-
-.home-contact-form .home-contact-form-btn :hover {
-  background-color: red;
 }
 /*# sourceMappingURL=HomeContact.css.map */

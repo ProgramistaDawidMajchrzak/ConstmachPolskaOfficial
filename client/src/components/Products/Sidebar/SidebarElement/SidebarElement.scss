@@ -1,0 +1,59 @@
+@import '../../../../App.scss';
+
+
+.sidebar-element {
+    width: 100%;
+    height: auto;
+
+
+    .sidebar-element-title {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 0;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $primaryColor;
+            border-left: 4px solid $thirdColor;
+            border-radius: 0 5px 5px 0;
+        }
+
+        h5 {
+            font-weight: 400;
+            font-size: 17px;
+            margin: 0;
+            color: $white;
+            margin-left: 18px;
+        }
+
+        .sidebar-element-arrow {
+            color: $white;
+            margin-right: 10px;
+        }
+    }
+}
+
+.sidebar-element-subnav {
+    display: none;
+
+    .sidebar-element-subnav-item {
+
+        h5 {
+            color: $white;
+            margin-left: 20%;
+            font-size: 15px;
+            padding-right: 20px;
+
+            &:hover {
+                color: $thirdColor;
+            }
+        }
+    }
+}
+
+.show {
+    display: block;
+}
