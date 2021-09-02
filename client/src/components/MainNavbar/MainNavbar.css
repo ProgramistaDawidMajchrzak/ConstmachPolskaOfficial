@@ -56,4 +56,8 @@ body {
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
+
+.main-navbar ul li .active {
+  color: #FBB722;
+}
 /*# sourceMappingURL=MainNavbar.css.map */

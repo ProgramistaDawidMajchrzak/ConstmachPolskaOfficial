@@ -1,15 +1,15 @@
 import React from 'react';
 import './MainNavbar.css';
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function MainNavbar() {
     return (
         <div className='main-navbar'>
             <ul>
-                <li><Link to='/home'>Start</Link></li>
-                <li><Link to='/products'>Produkty</Link></li>
-                <li><Link to='/news'>Nowości</Link></li>
-                <li><Link to='/contact'>Kontakt</Link></li>
+                <li><NavLink exact={true} to='/home'>Start</NavLink></li>
+                <li><NavLink to='/products'>Produkty</NavLink></li>
+                <li><NavLink to='/news'>Nowości</NavLink></li>
+                <li><NavLink to='/contact'>Kontakt</NavLink></li>
             </ul>
         </div>
     )

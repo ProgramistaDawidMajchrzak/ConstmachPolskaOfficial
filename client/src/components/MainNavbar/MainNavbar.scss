@@ -39,6 +39,10 @@
                 color: $primaryColor;
                 transition: .25s ease-in-out;
             }
+
+            .active {
+                color: $thirdColor;
+            }
         }
     }
 }
