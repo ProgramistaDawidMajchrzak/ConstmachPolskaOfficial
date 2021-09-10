@@ -10,7 +10,6 @@ body {
 .sidebar-container {
   width: 400px;
   height: 700px;
-  position: absolute;
 }
 
 .sidebar-container .sidebar-box {

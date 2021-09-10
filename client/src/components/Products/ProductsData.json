@@ -21,32 +21,32 @@
             {
                 "title": "STATIONARY 160",
                 "id": 4,
-                "path": "/STATIONARY 160"
+                "path": "/STATIONARY160"
             },
             {
                 "title": "STATIONARY 240",
                 "id": 5,
-                "path": "/STATIONARY 240"
+                "path": "/STATIONARY240"
             },
             {
                 "title": "DOUBLE MIX 60",
                 "id": 6,
-                "path": "/DOUBLE MIX 60"
+                "path": "/DOUBLEMIX60"
             },
             {
                 "title": "DOUBLE MIX 100",
                 "id": 7,
-                "path": "/DOUBLE MIX 100"
+                "path": "/DOUBLEMIX100"
             },
             {
                 "title": "DRY MIX 60",
                 "id": 8,
-                "path": "/DRY MIX 60"
+                "path": "/DRYMIX60"
             },
             {
                 "title": "DRY MIX 100",
                 "id": 9,
-                "path": "/DRY MIX 100"
+                "path": "/DRYMIX100"
             }
         ]
     },
@@ -57,32 +57,32 @@
             {
                 "title": "MOBILE 30",
                 "id": 1,
-                "path": "/MOBILE 30"
+                "path": "/MOBILE30"
             },
             {
                 "title": "MOBILE 60",
                 "id": 2,
-                "path": "/MOBILE 60"
+                "path": "/MOBILE60"
             },
             {
                 "title": "MOBILE 100",
                 "id": 3,
-                "path": "/MOBILE 100"
+                "path": "/MOBILE100"
             },
             {
                 "title": "MOBILE 120",
                 "id": 4,
-                "path": "/MOBILE 120"
+                "path": "/MOBILE120"
             },
             {
                 "title": "MOBICOM 30",
                 "id": 5,
-                "path": "/MOBCOM 30"
+                "path": "/MOBCOM30"
             },
             {
                 "title": "MOBICOM 45",
                 "id": 6,
-                "path": "/MOBCOM 45"
+                "path": "/MOBCOM45"
             },
             {
                 "title": "PRZENOŚNIKI PODAJĄCE",
@@ -124,22 +124,22 @@
             {
                 "title": "MIESZALNIKI DWUWAŁOWE",
                 "id": 1,
-                "path": "/MIESZALNIKI DWUWAŁOWE"
+                "path": "/MIESZALNIKIDWUWAŁOWE"
             },
             {
                 "title": "MIESZALNIKI JEDNOWAŁOWE",
                 "id": 2,
-                "path": "/MIESZALNIKI JEDNOWAŁOWE"
+                "path": "/MIESZALNIKIJEDNOWAŁOWE"
             },
             {
                 "title": "MIESZALNIKI PLANETARNE",
                 "id": 3,
-                "path": "/MIESZALNIKI PLANETARNE"
+                "path": "/MIESZALNIKIPLANETARNE"
             },
             {
                 "title": "MIESZALNIKI TALERZOWE",
                 "id": 4,
-                "path": "/MIESZALNIKI TALERZOWE"
+                "path": "/MIESZALNIKITALERZOWE"
             }
         ]
     },
@@ -150,52 +150,52 @@
             {
                 "title": "LINIE DO KRUSZENIA I PRZESIEWANIA",
                 "id": 1,
-                "path": "/LINIE DO KRUSZENIA I PRZESIEWANIA"
+                "path": "/LINIEDOKRUSZENIAIPRZESIEWANIA"
             },
             {
                 "title": "KRUSZARKI SZCZĘKOWE",
                 "id": 2,
-                "path": "/KRUSZARKI SZCZĘKOWE"
+                "path": "/KRUSZARKISZCZĘKOWE"
             },
             {
                 "title": "KRUSZARKI UDAROWE PIERWSZEGO STOPNIA",
                 "id": 3,
-                "path": "/KRUSZARKI UDAROWE PIERWSZEGO STOPNIA"
+                "path": "/KRUSZARKIUDAROWEPIERWSZEGOSTOPNIA"
             },
             {
                 "title": "KRUSZARKI UDAROWE DRUGIEGO STOPNIA",
                 "id": 4,
-                "path": "/KRUSZARKI UDAROWE DRUGIEGO STOPNIA"
+                "path": "/KRUSZARKIUDAROWEDRUGIEGOSTOPNIA"
             },
             {
                 "title": "KRUSZARKI STOŻKOWE",
                 "id": 5,
-                "path": "/KRUSZARKI STOŻKOWE"
+                "path": "/KRUSZARKISTOŻKOWE"
             },
             {
                 "title": "KRUSZARKI UDAROWE TRZECIEGO STOPNIA",
                 "id": 6,
-                "path": "/KRUSZARKI UDAROWE TRZECIEGO STOPNIA"
+                "path": "/KRUSZARKIUDAROWETRZECIEGOSTOPNIA"
             },
             {
                 "title": "KRUSZARKI UDAROWE Z PIONOWYM WAŁEM",
                 "id": 7,
-                "path": "/KRUSZARKI UDAROWE Z PIONOWYM WAŁEM"
+                "path": "/KRUSZARKIUDAROWEZPIONOWYMWAŁEM"
             },
             {
                 "title": "PRZENOŚNIKI TAŚMOWE",
                 "id": 8,
-                "path": "/PRZENOŚNIKI TAŚMOWE"
+                "path": "/PRZENOŚNIKITAŚMOWE"
             },
             {
                 "title": "PODAJNIKI WIBRACYJNE",
                 "id": 9,
-                "path": "/PODAJNIKI WIBRACYJNE"
+                "path": "/PODAJNIKIWIBRACYJNE"
             },
             {
                 "title": "PRZESIEWACZE WIBRACYJNE",
                 "id": 10,
-                "path": "/PRZESIEWACZE WIBRACYJNE"
+                "path": "/PRZESIEWACZEWIBRACYJNE"
             }
         ]
     },
@@ -209,22 +209,28 @@
                 "path": "/MOBILNE KRUSZARKI SKAŁ TWARDYCH",
                 "elements": [
                     {
-                        "title": "JC-1 MOBILNE KRUSZARKI"
+                        "title": "JC-1 MOBILNE KRUSZARKI",
+                        "path": "/JC-1MOBILNEKRUSZARKI"
                     },
                     {
-                        "title": "JC-2 MOBILNE KRUSZARKI"
+                        "title": "JC-2 MOBILNE KRUSZARKI",
+                        "path": "/JC-2MOBILNEKRUSZARKI"
                     },
                     {
-                        "title": "JC-3 MOBILNE KRUSZARKI"
+                        "title": "JC-3 MOBILNE KRUSZARKI",
+                        "path": "/JC-3MOBILNEKRUSZARKI"
                     },
                     {
-                        "title": "JCV-1 MOBILNE KRUSZARKI"
+                        "title": "JCV-1 MOBILNE KRUSZARKI",
+                        "path": "/JCV-1MOBILNEKRUSZARKI"
                     },
                     {
-                        "title": "JCV-2 MOBILNE KRUSZARKI"
+                        "title": "JCV-2 MOBILNE KRUSZARKI",
+                        "path": "/JCV-2MOBILNEKRUSZARKI"
                     },
                     {
-                        "title": "JCV-3 MOBILNE KRUSZARKI"
+                        "title": "JCV-3 MOBILNE KRUSZARKI",
+                        "path": "/JCV-3MOBILNEKRUSZARKI"
                     }
                 ]
             },
@@ -281,12 +287,12 @@
             {
                 "title": "PI-1 MOBILNE KRUSZARKI WAPIENIA",
                 "id": 1,
-                "path": "/PI-1 MOBILNE KRUSZARKI WAPIENIA"
+                "path": "/PI-1MOBILNEKRUSZARKIWAPIENIA"
             },
             {
                 "title": "PI-2 MOBILNE KRUSZARKI WAPIENIA",
                 "id": 2,
-                "path": "/PI-2 MOBILNE KRUSZARKI WAPIENIA"
+                "path": "/PI-2MOBILNEKRUSZARKIWAPIENIA"
                 
             }
         ]
@@ -298,27 +304,27 @@
             {
                 "title": "STACJONARNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA",
                 "id": 1,
-                "path": "/STACJONARNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA"
+                "path": "/STACJONARNEWĘZŁYDOPŁUKANIAIPRZESIEWANIA"
             },
             {
                 "title": "MOBILNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA",   
                 "id": 2,
-                "path": "/MOBILNE WĘZŁY DO PŁUKANIA I PRZESIEWANIA"
+                "path": "/MOBILNEWĘZŁYDOPŁUKANIAIPRZESIEWANIA"
             },
             {
                 "title": "PŁUCZKI ŚRUBOWE",
                 "id": 3,
-                "path": "/PŁUCZKI ŚRUBOWE"
+                "path": "/PŁUCZKIŚRUBOWE"
             },
             {
                 "title": "PŁUCZKI KOŁOWE (KUBEŁKOWE)",
                 "id": 4,
-                "path": "/PŁUCZKI KOŁOWE (KUBEŁKOWE)"
+                "path": "/PŁUCZKIKOŁOWE(KUBEŁKOWE)"
             },
             {
                 "title": "PRZESIEWACZE ODWADNIAJĄCE I HYDROCYKLONY",
                 "id": 5,
-                "path": "/PRZESIEWACZE ODWADNIAJĄCE I HYDROCYKLONY"
+                "path": "/PRZESIEWACZEODWADNIAJĄCEIHYDROCYKLONY"
             }
         ]
     },
@@ -329,32 +335,32 @@
             {
                 "title": "BS-20 MASZYNY DO BLOCZKÓW BETONOWYCH",
                 "id": 1,
-                "path": "/BS-20 MASZYNY DO BLOCZKÓW BETONOWYCH"
+                "path": "/BS-20MASZYNYDOBLOCZKÓWBETONOWYCH"
             },
             {
                 "title": "BS-25 MASZYNY DO BLOCZKÓW BETONOWYCH",
                 "id": 2,
-                "path": "/BS-25 MASZYNY DO BLOCZKÓW BETONOWYCH"
+                "path": "/BS-25MASZYNYDOBLOCZKÓWBETONOWYCH"
             },
             {
                 "title": "BS-30 MASZYNY DO BLOCZKÓW BETONOWYCH",
                 "id": 3,
-                "path": "/BS-30 MASZYNY DO BLOCZKÓW BETONOWYCH"
+                "path": "/BS-30MASZYNYDOBLOCZKÓWBETONOWYCH"
             },
             {
                 "title": "BS-36 MASZYNY DO BLOCZKÓW BETONOWYCH",
                 "id": 4,
-                "path": "/BS-36 MASZYNY DO BLOCZKÓW BETONOWYCH"
+                "path": "/BS-36MASZYNYDOBLOCZKÓWBETONOWYCH"
             },
             {
                 "title": "BS-42 MASZYNY DO BLOCZKÓW BETONOWYCH",
                 "id": 5,
-                "path": "/BS-42 MASZYNY DO BLOCZKÓW BETONOWYCH"
+                "path": "/BS-42MASZYNYDOBLOCZKÓWBETONOWYCH"
             },
             {
                 "title": "PRZEJEZDNA MASZYNA DO PRODUKCJI PUSTAKÓW",
                 "id": 6,
-                "path": "/PRZEJEZDNA MASZYNA DO PRODUKCJI PUSTAKÓW"
+                "path": "/PRZEJEZDNAMASZYNADOPRODUKCJIPUSTAKÓW"
             }
         ]
     },
@@ -365,47 +371,47 @@
             {
                 "title": "CS-50 SILOSY NA CEMENT",
                 "id": 1,
-                "path": "/CS-50 SILOSY NA CEMENT"
+                "path": "/CS-50SILOSYNACEMENT"
             },
             {
                 "title": "CS-75 SILOSY NA CEMENT",
                 "id": 2,
-                "path": "/CS-75 SILOSY NA CEMENT"
+                "path": "/CS-75SILOSYNACEMENT"
             },
             {
                 "title": "CS-100 SILOSY NA CEMENT",
                 "id": 3,
-                "path": "/CS-100 SILOSY NA CEMENT"
+                "path": "/CS-100SILOSYNACEMENT"
             },
             {
                 "title": "CS-200 SILOSY NA CEMENT",
                 "id": 4,
-                "path": "/CS-200 SILOSY NA CEMENT"
+                "path": "/CS-200SILOSYNACEMENT"
             },
             {
                 "title": "CS-300 SILOSY NA CEMENT",
                 "id": 5,
-                "path": "/CS-300 SILOSY NA CEMENT"
+                "path": "/CS-300SILOSYNACEMENT"
             },
             {
                 "title": "CS-500 SILOSY NA CEMENT",
                 "id": 6,
-                "path": "/CS-500 SILOSY NA CEMENT"
+                "path": "/CS-500SILOSYNACEMENT"
             },
             {
                 "title": "CS-1000 SILOSY NA CEMENT",
                 "id": 7,
-                "path": "/CS-1000 SILOSY NA CEMENT"
+                "path": "/CS-1000SILOSYNACEMENT"
             },
             {
                 "title": "CS-2000 SILOSY NA CEMENT",
                 "id": 8,
-                "path": "/CS-2000 SILOSY NA CEMENT"
+                "path": "/CS-2000SILOSYNACEMENT"
             },
             {
                 "title": "CS-3000 SILOSY NA CEMENT",
                 "id": 9,
-                "path": "/CS-3000 SILOSY NA CEMENT"
+                "path": "/CS-3000SILOSYNACEMENT"
             }
         ]
     }

@@ -23,7 +23,7 @@ export default function App() {
             <Router>
                 <MainNavbar />
                 <Switch>
-                    <Route exact={true} path="/home" component={Home} />
+                    <Route exact path="/" component={Home} />
                     <Route path="/products" component={Products} />
                     <Route path="/news" component={News} />
                     <Route path="/contact" component={Contact} />

@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f1f1f1;
+  font-family: dunbar-tall, sans-serif;
+}
+
+.product-box-content {
+  width: 100%;
+  height: auto;
+}
+
+.product-box-content .product-box-title {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  background-color: #6EB2BC;
+}
+
+.product-box-content .product-box-title h3 {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  font-size: 22px;
+  color: #f1f1f1;
+}
+
+.product-box-content .product-box-img {
+  width: 100%;
+  height: auto;
+}
+
+.product-box-content .product-box-img img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.product-box-content .product-box-nav {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: -5px;
+}
+
+.product-box-content .product-box-nav nav {
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #6EB2BC;
+}
+
+.product-box-content .product-box-nav nav ul {
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 5px;
+  width: auto;
+}
+
+.product-box-content .product-box-nav nav ul li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  height: 100%;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+}
+
+.product-box-content .product-box-nav nav ul li:hover {
+  border-bottom: 3px solid #FBB722;
+}
+
+.product-box-content .product-box-nav nav ul li .product-box-link {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.product-box-content .product-box-nav nav ul li a {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.product-box-content .product-box-nav nav ul li a:hover {
+  color: #FBB722;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .product-box-gallery {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .product-box-gallery-image {
+  width: 250px;
+  margin: 5px;
+  height: 250px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .product-box-gallery-image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .product-box-gallery-image img:hover {
+  opacity: .7;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .image-lightbox {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .image-lightbox .image-lightbox-opacity {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  opacity: .8;
+  position: absolute;
+  z-index: 5;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .image-lightbox img {
+  position: absolute;
+  z-index: 10;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.product-box-content .product-box-nav .product-box-nav-content .image-lightbox .image-lightbox-close-icon {
+  position: absolute;
+  color: #16161D;
+  right: 2%;
+  top: 2%;
+  z-index: 10;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Stationary.css.map */

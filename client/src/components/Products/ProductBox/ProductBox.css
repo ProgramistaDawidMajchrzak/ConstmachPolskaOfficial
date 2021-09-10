@@ -1,7 +1,7 @@
 .product-box {
-  width: 950px;
-  height: 830px;
-  position: absolute;
-  right: 0;
+  width: 100%;
+  height: 100%;
+  margin: 50px;
+  max-width: 1200px;
 }
 /*# sourceMappingURL=ProductBox.css.map */
