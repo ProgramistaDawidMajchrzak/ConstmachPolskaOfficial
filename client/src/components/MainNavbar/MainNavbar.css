@@ -3,13 +3,13 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   font-family: dunbar-tall, sans-serif;
 }
 
 .main-navbar {
   width: 100%;
-  background-color: #16161D;
+  background-color: #323A45;
   height: 40px;
   margin: 0;
   border-top: 2px solid #FBB722;

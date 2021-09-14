@@ -3,7 +3,7 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   font-family: dunbar-tall, sans-serif;
 }
 
@@ -38,12 +38,12 @@ body {
   font-weight: 400;
   font-size: 17px;
   margin: 0;
-  color: #f1f1f1;
+  color: #ffffff;
   margin-left: 18px;
 }
 
 .sidebar-element .sidebar-element-title .sidebar-element-arrow {
-  color: #f1f1f1;
+  color: #ffffff;
   margin-right: 10px;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .sidebar-element-subnav a {
-  color: #f1f1f1;
+  color: #ffffff;
   font-size: 16px;
   margin: 20px;
   text-decoration: none;
@@ -72,6 +72,10 @@ body {
 
 .sidebar-element-subnav .active {
   color: #FBB722;
+}
+
+.sidebar-element-subnav .sidebar-element-subnav-subItem {
+  padding-left: 10px;
 }
 
 .show {

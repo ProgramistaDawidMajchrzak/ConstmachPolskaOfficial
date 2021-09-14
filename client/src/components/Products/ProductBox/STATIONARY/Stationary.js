@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import HomeContact from '../../../Home/HomeContact/HomeContact'
 import './Stationary.css';
 import {
     BrowserRouter as Router,
@@ -59,23 +60,23 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                             <div className="product-box-nav-content">
                                 <p>{aboutdescription1}</p>
                                 <div className="product-box-img">
-                                    <img src={aboutImg1} alt="img" />
+                                    <img src={aboutImg1} alt="" />
                                 </div>
                                 <p>{aboutdescription2}</p>
                                 <div className="product-box-img">
-                                    <img src={aboutImg2} alt="img" />
+                                    <img src={aboutImg2} alt="" />
                                 </div>
                                 <p>{aboutdescription3}</p>
                                 <div className="product-box-img">
-                                    <img src={aboutImg3} alt="img" />
+                                    <img src={aboutImg3} alt="" />
                                 </div>
                                 <p>{aboutdescription4}</p>
                                 <div className="product-box-img">
-                                    <img src={aboutImg4} alt="img" />
+                                    <img src={aboutImg4} alt="" />
                                 </div>
                                 <p>{aboutdescription5}</p>
                                 <div className="product-box-img">
-                                    <img src={aboutImg5} alt="img" />
+                                    <img src={aboutImg5} alt="" />
                                 </div>
                                 <p>{aboutdescription6}</p>
                             </div>
@@ -118,7 +119,7 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                                     )}
                                 </div>
                                 {openLightbox && <div className="image-lightbox">
-                                    <div className="image-lightbox-opacity"></div>
+                                    <div onClick={() => setOpenLightBox(false)} className="image-lightbox-opacity"></div>
                                     <img src={galleryImages[lightbox - 1].imageSrc} alt="img" />
                                     <ClearIcon onClick={() => setOpenLightBox(false)} className='image-lightbox-close-icon' />
                                 </div>}
@@ -126,7 +127,8 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                         </Route>
                         <Route path="/SendMessage">
                             <div className="product-box-nav-content">
-
+                                <h3>Spytaj o wycenę lub dodatkowe informacje na temat produktu <b>{title}</b></h3>
+                                <HomeContact />
                             </div>
                         </Route>
                     </Switch>

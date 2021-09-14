@@ -29,9 +29,18 @@ function SidebarElementSubNav({ product }) {
         <>
             {
                 product.elements.map(item =>
-                    <NavLink key={item.id} to={item.path}>
-                        <div className='sidebar-element-subnav-item'>
+                    <NavLink key={item.id} to={item.path} >
+                        <div>
                             {item.title}
+                            <div className="sidebar-element-subnav-items">
+                                {item.elements && item.elements.map(subItem =>
+                                    <NavLink key={subItem.id} to={subItem.path}>
+                                        <div className='sidebar-element-subnav-subItem'>
+                                            {subItem.title}
+                                        </div>
+                                    </NavLink >
+                                )}
+                            </div>
                         </div>
                     </NavLink >
                 )
@@ -39,3 +48,4 @@ function SidebarElementSubNav({ product }) {
         </>
     )
 }
+

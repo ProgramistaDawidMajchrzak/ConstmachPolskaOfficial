@@ -163,6 +163,15 @@
                     cursor: pointer;
                 }
             }
+
+            h3 {
+                padding-left: 35px;
+                word-spacing: 4px;
+
+                b {
+                    color: $primaryColor;
+                }
+            }
         }
 
 

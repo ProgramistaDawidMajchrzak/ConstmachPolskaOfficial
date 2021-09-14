@@ -77,17 +77,17 @@
             {
                 "title": "MOBICOM 30",
                 "id": 5,
-                "path": "/MOBCOM30"
+                "path": "/MOBICOM30"
             },
             {
                 "title": "MOBICOM 45",
                 "id": 6,
-                "path": "/MOBCOM45"
+                "path": "/MOBICOM45"
             },
             {
                 "title": "PRZENOŚNIKI PODAJĄCE",
                 "id": 7,
-                "path": "/PRZENOŚNIKI PODAJĄCE"
+                "path": "/PRZENOŚNIKIPODAJĄCE"
             }
         ]
     },
@@ -98,22 +98,22 @@
             {
                 "title": "COMPACT 20",
                 "id": 1,
-                "path": "/COMPACT 20"
+                "path": "/COMPACT20"
             },
             {
                 "title": "COMPACT 30",
                 "id": 2,
-                "path": "/COMPACT 30"
+                "path": "/COMPACT30"
             },
             {
                 "title": "COMPACT 60",
                 "id": 3,
-                "path": "/COMPACT 60"
+                "path": "/COMPACT60"
             },
             {
                 "title": "COMPACT 100",
                 "id": 4,
-                "path": "/COMPACT 100"
+                "path": "/COMPACT100"
             }
         ]
     },
@@ -206,30 +206,36 @@
             {
                 "title": "MOBILNE KRUSZARKI SKAŁ TWARDYCH",
                 "id": 1,
-                "path": "/MOBILNE KRUSZARKI SKAŁ TWARDYCH",
+                "path": "/MOBILNEKRUSZARKISKAŁTWARDYCH",
                 "elements": [
                     {
                         "title": "JC-1 MOBILNE KRUSZARKI",
+                        "id": 1,
                         "path": "/JC-1MOBILNEKRUSZARKI"
                     },
                     {
                         "title": "JC-2 MOBILNE KRUSZARKI",
+                        "id": 2,
                         "path": "/JC-2MOBILNEKRUSZARKI"
                     },
                     {
                         "title": "JC-3 MOBILNE KRUSZARKI",
+                        "id": 3,
                         "path": "/JC-3MOBILNEKRUSZARKI"
                     },
                     {
                         "title": "JCV-1 MOBILNE KRUSZARKI",
+                        "id": 4,
                         "path": "/JCV-1MOBILNEKRUSZARKI"
                     },
                     {
                         "title": "JCV-2 MOBILNE KRUSZARKI",
+                        "id": 5,
                         "path": "/JCV-2MOBILNEKRUSZARKI"
                     },
                     {
                         "title": "JCV-3 MOBILNE KRUSZARKI",
+                        "id": 6,
                         "path": "/JCV-3MOBILNEKRUSZARKI"
                     }
                 ]
@@ -237,44 +243,64 @@
             {
                 "title": "MOBILNE KRUSZARKI SZCZĘKOWE I UDAROWE",
                 "id": 2,
-                "path": "/MOBILNE KRUSZARKI SZCZĘKOWE I UDAROWE",
+                "path": "/MOBILNEKRUSZARKISZCZĘKOWEIUDAROWE",
                 "elements": [
                     {
-                        "title": "JT-1 MOBILNE KRUSZARKI"
+                        "title": "JT-1 MOBILNE KRUSZARKI",
+                        "id": 1,
+                        "path": "/JT-1MOBILNEKRUSZARKI"
                     },
                     {
-                        "title": "JS-2 MOBILNE KRUSZARKI"
+                        "title": "JS-2 MOBILNE KRUSZARKI",
+                        "id": 2,
+                        "path": "/JS-2MOBILNEKRUSZARKI"
                     },
                     {
-                        "title": "JS-3 MOBILNE KRUSZARKI"
+                        "title": "JS-3 MOBILNE KRUSZARKI",
+                        "id": 3,
+                        "path": "/JS-3MOBILNEKRUSZARKI"
                     }
                 ]
             },
             {
                 "title": "MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
                 "id": 3,
-                "path": "/MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                "path": "/MOBILNEWĘZŁYDOPRODUKCJIPIASKU",
                 "elements": [
                     {
-                        "title": "V-70 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                        "title": "V-70 MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                        "id": 1,
+                        "path": "/V-70MOBILNEWĘZŁYDOPRODUKCJIPIASKU"
                     },
                     {
-                        "title": "V-75 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                        "title": "T-75 MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                        "id": 2,
+                        "path": "/T-75MOBILNEWĘZŁYDOPRODUKCJIPIASKU"
                     },
                     {
-                        "title": "V-80 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                        "title": "V-80 MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                        "id": 3,
+                        "path": "/V-80MOBILNEWĘZŁYDOPRODUKCJIPIASKU"
                     },
                     {
-                        "title": "V-90 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                        "title": "V-90 MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                        "id": 4,
+                        "path": "/V-90MOBILNEWĘZŁYDOPRODUKCJIPIASKU"
                     },
                     {
-                        "title": "V-100 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                        "title": "T-100 MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                        "id": 5,
+                        "path": "/T-100MOBILNEWĘZŁYDOPRODUKCJIPIASKU"
                     },
                     {
-                        "title": "V-120 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                        "title": "T-120 MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                        "id": 6,
+                        "path": "/T-120MOBILNEWĘZŁYDOPRODUKCJIPIASKU"
                     },
                     {
-                        "title": "V-150 MOBILNE WĘZŁY DO PRODUKCJI PIASKU"
+                        "title": "T-150 MOBILNE WĘZŁY DO PRODUKCJI PIASKU",
+                        "id": 7,
+                        "path": "/T-150MOBILNEWĘZŁYDOPRODUKCJIPIASKU"
                     }
                 ]
             }

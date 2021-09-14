@@ -3,14 +3,14 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   font-family: dunbar-tall, sans-serif;
 }
 
 .top-contact-info {
   width: 100%;
   height: 40px;
-  background-color: #16161D;
+  background-color: #323A45;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,7 +50,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #f1f1f1;
+  color: #ffffff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -60,7 +60,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #f1f1f1;
+  color: #ffffff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -73,7 +73,7 @@ body {
 }
 
 .top-contact-info .icon {
-  color: #f1f1f1;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 600px) {
