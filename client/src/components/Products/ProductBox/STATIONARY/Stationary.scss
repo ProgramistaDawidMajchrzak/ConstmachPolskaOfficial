@@ -63,7 +63,7 @@
                     line-height: 70px;
                     cursor: pointer;
 
-                    &:hover {
+                    :hover {
                         border-bottom: 3px solid $thirdColor;
 
                     }
@@ -89,10 +89,12 @@
 
                     }
 
+                    .active {
+                        color: $thirdColor;
+                        border-bottom: 3px solid $thirdColor;
+                    }
                 }
-
             }
-
         }
 
         .product-box-nav-content {

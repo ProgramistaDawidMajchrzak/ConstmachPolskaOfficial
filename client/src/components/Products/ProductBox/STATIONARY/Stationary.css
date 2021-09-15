@@ -83,7 +83,7 @@ body {
   cursor: pointer;
 }
 
-.product-box-content .product-box-nav nav ul li:hover {
+.product-box-content .product-box-nav nav ul li :hover {
   border-bottom: 3px solid #FBB722;
 }
 
@@ -103,6 +103,11 @@ body {
 
 .product-box-content .product-box-nav nav ul li a:hover {
   color: #FBB722;
+}
+
+.product-box-content .product-box-nav nav ul li .active {
+  color: #FBB722;
+  border-bottom: 3px solid #FBB722;
 }
 
 .product-box-content .product-box-nav .product-box-nav-content {

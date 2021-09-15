@@ -14,7 +14,6 @@ export default function Sidebar() {
                         < SidebarElement
                             subNav={subNav}
                             setSubNav={setSubNav}
-
                             title={product.title}
                             key={product.id}
                             product={product}
