@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import ClearIcon from '@material-ui/icons/Clear';
 
-export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, aboutImg3, aboutImg4, aboutImg5, aboutdescription1, aboutdescription2, aboutdescription3, aboutdescription4, aboutdescription5, aboutdescription6, specification, mainPlan, transportImg, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6 }) {
+export default function Stationary({ title, path, mainImg, aboutImg1, aboutImg2, aboutImg3, aboutImg4, aboutImg5, aboutdescription1, aboutdescription2, aboutdescription3, aboutdescription4, aboutdescription5, aboutdescription6, specification, specifDescription, mainPlan, mainPlanDescription, transportImg, transportDescription, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6 }) {
 
     const galleryImages = [
         { id: 1, imageSrc: gallery1 },
@@ -36,7 +36,7 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                     <nav>
                         <ul>
                             <li>
-                                <NavLink exact to='/'><div className="product-box-link">Opis Główny</div></NavLink>
+                                <NavLink exact to={path}><div className="product-box-link">Opis Główny</div></NavLink>
                             </li>
                             <li>
                                 <NavLink to='/Specification'><div className="product-box-link">Specyfikacja</div></NavLink>
@@ -56,7 +56,7 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                         </ul>
                     </nav>
                     <Switch>
-                        <Route exact path="/">
+                        <Route exact path={path}>
                             <div className="product-box-nav-content">
                                 <p>{aboutdescription1}</p>
                                 <div className="product-box-img">
@@ -83,6 +83,7 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                         </Route>
                         <Route path="/Specification">
                             <div className="product-box-nav-content">
+                                <p>{specifDescription}</p>
                                 <div className="product-box-img">
                                     <img src={specification} alt="img" />
                                 </div>
@@ -90,6 +91,7 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                         </Route>
                         <Route path="/MainPlan">
                             <div className="product-box-nav-content">
+                                <p>{mainPlanDescription}</p>
                                 <div className="product-box-img">
                                     <img src={mainPlan} alt="img" />
                                 </div>
@@ -97,7 +99,7 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                         </Route>
                         <Route path="/Transport">
                             <div className="product-box-nav-content">
-                                <p>{`Znajdujące się w naszej ofercie stacjonarne węzły betoniarskie umożliwiają ograniczenie do minimum kosztów związanych z transportem dzięki modułowej konstrukcji i możliwości transportu w naczepie o zamkniętej obudowie i kontenerach.`}</p>
+                                <p>{transportDescription}</p>
                                 <div className="product-box-img">
                                     <img src={transportImg} alt="img" />
                                 </div>
@@ -114,7 +116,7 @@ export default function Stationary({ title, mainImg, aboutImg1, aboutImg2, about
                                             }}
                                             className='product-box-gallery-image'
                                             key={image.id} >
-                                            <img src={image.imageSrc} alt="img" />
+                                            <img src={image.imageSrc} alt="" />
                                         </div>
                                     )}
                                 </div>

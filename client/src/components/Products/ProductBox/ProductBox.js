@@ -20,6 +20,7 @@ export default function ProductBox() {
                 <Route path="/STATIONARY60">
                     <Stationary
                         title='STATIONARY 60'
+                        path="/STATIONARY60"
                         mainImg={images.Stationary60main}
                         aboutImg1={images.Stationary60about1}
                         aboutImg2={images.Stationary60about2}
@@ -48,6 +49,7 @@ export default function ProductBox() {
                 <Route path="/STATIONARY100">
                     <Stationary
                         title='STATIONARY 100'
+                        path="/STATIONARY100"
                         mainImg={images.Stationary100main}
                         aboutImg1={images.Stationary100about}
                         specification={images.Stationary100SpecificationImg}
@@ -397,11 +399,10 @@ export default function ProductBox() {
                         gallery6={images.PanGallery6}
                     />
                 </Route>
-                {/*<Route path="/LINIEDOKRUSZENIAIPRZESIEWANIA">
+                <Route path="/LINIEDOKRUSZENIAIPRZESIEWANIA">
                     <Stationary
                         title='LINIE DO KRUSZENIA I PRZESIEWANIA'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
+                        mainImg={images.Crushing1main}
                         aboutdescription1='CONSTMACH projektuje i produkuje Linie do kruszenia i przesiewania z różnymi konfiguracjami i wartościami wydajności zgodnie z potrzebami klientów i pReferencje. Wartości zdolności produkcyjnych naszych linii do kruszenia i przesiewania zmieniają się od 50 do 1.000 tph. Konfiguracje i układy naszych linii do kruszenia i przesiewania są definiowane według różnych kryteriów, takich jak:
 
                         - wymagana zdolność produkcyjna,
@@ -412,52 +413,52 @@ export default function ProductBox() {
                         aboutdescription2='Głównym celem naszej firmy jest zawsze wspieranie naszych klientów w wyborze najbardziej odpowiednich projektów zgodnie z ich rzeczywistymi potrzebami i pomoc w uniknięciu błędnych inwestycji, które spowodują marnotrawstwo finansów i / lub wysokie koszty operacyjne.
 
                         Proszę o kontakt, aby uzyskać najbardziej odpowiednie i zoptymalizowane projekty i oferty, które zostaną przygotowane przez nasz zespół inżynierów i całkowicie spełnią Państwa wymagania.'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        specifDescription='Specyfikacje techniczne i główne konfiguracje naszych linii do kruszenia i przesiewania zmieniają się zgodnie z zdolnością produkcyjną zakładu, ilością i wielkością końcowych frakcji i rodzaju kruszonego materiału.'
+                        mainPlan={images.Crushing1MainPlan}
+                        mainPlanDescription='Układy naszych linii do kruszenia i przesiewania zmieniają się zgodnie z zdolnością produkcyjną zakładu, ilością i wielkością końcowych frakcji i rodzaju kruszonego materiału. Poniżej znajdują się przykładowe układy produktów, które są często preferowane przez naszych klientów.'
+                        transportImg={images.Crushing1Transport}
+                        transportDescription='Znajdujące się w naszej produkty umożliwiają ograniczenie do minimum kosztów związanych z transportem dzięki modułowej konstrukcji i możliwości transportu w naczepie o zamkniętej obudowie i kontenerze 40 ft OT.'
+                        gallery1={images.Crushing1Gallery1}
+                        gallery2={images.Crushing1Gallery2}
+                        gallery3={images.Crushing1Gallery3}
+                        gallery4={images.Crushing1Gallery4}
+                        gallery5={images.Crushing1Gallery5}
+                        gallery6={images.Crushing1Gallery6}
                     />
                 </Route>
                 <Route path="/KRUSZARKISZCZĘKOWE">
                     <Stationary
                         title='KRUSZARKI SZCZĘKOWE'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutdescription1='
-                        Kruszarki szczękowe CONSTMACH zostały zaprojektowane do wstępnego kruszenia wszelkiego rodzaju surowców od miękkiego wapienia do najtwardszego granitu. Kruszarki szczękowe CONSTMACH są stosowane, jako kruszarki I stopnia w stacjonarnych i przejezdnych kruszarkach.
+                        mainImg={images.Crushing2main}
+                        aboutdescription1='Kruszarki szczękowe CONSTMACH zostały zaprojektowane do wstępnego kruszenia wszelkiego rodzaju surowców od miękkiego wapienia do najtwardszego granitu. Kruszarki szczękowe CONSTMACH są stosowane, jako kruszarki I stopnia w stacjonarnych i przejezdnych kruszarkach.
                         
-                        Koło zamachowe dużej prędkości, kąt szczęk, płyty bezpieczeństwa oraz tylne bloki, wysokie parametry pracy zapewniane dzięki geometrii, niezawodność, wytrzymałość oraz przyjazna dla użytkownika regulacja to zalety kruszarek szczękowych. Wszystkie kruszarki szczękowe są wyposażone w hydrauliczną regulację, która umożliwia ustawienie prześwitu szczęk zgodnie z pożądaną wielkością frakcji końcowej
-                        
-                        Cechy KRUSZAREK SZCZĘKOWYCH CONSTMACH:
+                        Koło zamachowe dużej prędkości, kąt szczęk, płyty bezpieczeństwa oraz tylne bloki, wysokie parametry pracy zapewniane dzięki geometrii, niezawodność, wytrzymałość oraz przyjazna dla użytkownika regulacja to zalety kruszarek szczękowych. Wszystkie kruszarki szczękowe są wyposażone w hydrauliczną regulację, która umożliwia ustawienie prześwitu szczęk zgodnie z pożądaną wielkością frakcji końcowej.'
+                        aboutdescription2='Cechy KRUSZAREK SZCZĘKOWYCH CONSTMACH:
                         Przemysłowa stalowa rama, spawana łukowo i poddawana normalnemu odpuszczaniu.
                         Duże, przemysłowe sferyczne, samocentrujące łożyska wałeczkowe.
                         Kruszarki szczękowe posiadają fundament pochłaniający największe obciążenie dzięki wykonaniu z kutego odlewu ze stali chromowo-niklowej.
                         Zależnie od potrzeb, kruszarki szczękowe CONSTMACH mogą być wyposażone w automatyczny system smarowania.
-                        Duże koła zamachowe zapewniające utrzymanie bezwładności podczas kruszenia twardego materiału.'
-                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        Duże koła zamachowe zapewniające utrzymanie bezwładności podczas kruszenia twardego materiału.
+                        Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
+                        specification={images.Crushing2SpecificationImg}
+                        mainPlan={images.Crushing2MainPlan}
+                        transportImg={images.Crushing2Transport}
+                        transportDescription='Znajdujące się w naszej ofercie produkty umożliwiają ograniczenie do minimum kosztów związanych z transportem dzięki modułowej konstrukcji i możliwości transportu w naczepie o zamkniętej obudowie i kontenerze 40 ft OT.'
+                        gallery1={images.Crushing2Gallery1}
+                        gallery2={images.Crushing2Gallery2}
+                        gallery3={images.Crushing2Gallery3}
+                        gallery4={images.Crushing2Gallery4}
+                        gallery5={images.Crushing2Gallery5}
+                        gallery6={images.Crushing2Gallery6}
                     />
                 </Route>
                 <Route path="/KRUSZARKIUDAROWEPIERWSZEGOSTOPNIA">
                     <Stationary
                         title='KRUSZARKI UDAROWE PIERWSZEGO STOPNIA'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutdescription1='Kruszarki udarowe I stopnia CONSTMACH to doskonałe rozwiązanie do kruszenia surowców i niskiej i średniej twardości zapewniające wysoką wydajność oraz frakcję końcową o sześciennym kształcie. Wysoki współczynnik przełożenia umożliwia spełnianie wymogów kruszenia II stopnia oraz zapewnia maksymalną wydajność. Hydrauliczna regulacja zapewnia łatwą konserwację i zmianę ustawień.
-
+                        mainImg={images.Crushing3main}
+                        aboutdescription1='
+                        Kruszarki udarowe I stopnia CONSTMACH to doskonałe rozwiązanie do kruszenia surowców i niskiej i średniej twardości zapewniające wysoką wydajność oraz frakcję końcową o sześciennym kształcie. Wysoki współczynnik przełożenia umożliwia spełnianie wymogów kruszenia II stopnia oraz zapewnia maksymalną wydajność. Hydrauliczna regulacja zapewnia łatwą konserwację i zmianę ustawień.
+                        
                         Cechy kruszarek udarowych I stopnia:
                         Grube boczne blachy, z okładzinami z manganu w miejscach narażonych na ścieranie
                         Duże sferyczne samo-centrujące łożyska wałeczkowe
@@ -466,26 +467,25 @@ export default function ProductBox() {
                         Duży otwór wsadowy z kurtynami zabezpieczającymi przed odbiciami
                         Wysoki wsp. przełożenia
                         Niezasłonięte otwory na wyjściu maszyny
-                        Regulowane długie ramię sterowania wielkością produktu'
-                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        Regulowane długie ramię sterowania wielkością produktu.'
+                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia linii kruszarek udarowych I stopnia lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
+                        specification={images.Crushing3SpecificationImg}
+                        mainPlan={images.Crushing3MainPlan}
+                        transportImg={images.Crushing2Transport}
+                        transportDescription='Znajdujące się w naszej ofercie produkty umożliwiają ograniczenie do minimum kosztów związanych z transportem dzięki modułowej konstrukcji i możliwości transportu w naczepie o zamkniętej obudowie i kontenerze 40 ft OT.'
+                        gallery1={images.Crushing3Gallery1}
+                        gallery2={images.Crushing3Gallery2}
+                        gallery3={images.Crushing3Gallery3}
+                        gallery4={images.Crushing3Gallery4}
+                        gallery5={images.Crushing3Gallery5}
+                        gallery6={images.Crushing3Gallery6}
                     />
                 </Route>
                 <Route path="/KRUSZARKIUDAROWEDRUGIEGOSTOPNIA">
                     <Stationary
                         title='KRUSZARKI UDAROWE DRUGIEGO STOPNIA'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutdescription1='
-                        Kruszarki udarowe II stopnia oferują duża wydajność, sześcienny kształt i niskie koszty eksploatacji. Oprócz wyjątkowej trwałości, łatwość wykonywania konserwacji pozwala ograniczyć do minimum przestoje. Trzy-stopniowe wahadło sprawia, że kruszarki udarowe II stopnia CONSTMACH nadają się świetnie do kruszenia I, II i III stopnia.
+                        mainImg={images.Crushing4main}
+                        aboutdescription1='Kruszarki udarowe II stopnia oferują duża wydajność, sześcienny kształt i niskie koszty eksploatacji. Oprócz wyjątkowej trwałości, łatwość wykonywania konserwacji pozwala ograniczyć do minimum przestoje. Trzy-stopniowe wahadło sprawia, że kruszarki udarowe II stopnia CONSTMACH nadają się świetnie do kruszenia I, II i III stopnia.
                         
                         Wytrzymałe tarcze, poddane normalnemu odpuszczaniu
                         Duże sferyczne łożyska wałeczkowe
@@ -495,74 +495,67 @@ export default function ProductBox() {
                         Wysoki wsp. przełożenia
                         Duży otwór wyładowczy
                         Hydrauliczna regulacja umożliwiająca zmianę rozwarcia płyty podczas kruszenia.'
-                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia linii kruszarek udarowych II stopnia lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
+                        specification={images.Crushing4SpecificationImg}
+                        mainPlan={images.Crushing4MainPlan}
+                        transportImg={images.Crushing2Transport}
+                        transportDescription='Znajdujące się w naszej ofercie produkty umożliwiają ograniczenie do minimum kosztów związanych z transportem dzięki modułowej konstrukcji i możliwości transportu w naczepie o zamkniętej obudowie i kontenerze 40 ft OT.'
+                        gallery1={images.Crushing4Gallery1}
+                        gallery2={images.Crushing4Gallery2}
                     />
                 </Route>
                 <Route path="/KRUSZARKISTOŻKOWE">
                     <Stationary
                         title='KRUSZARKI STOŻKOWE'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutdescription1='
-                        CONSTMACH rekomenduje w mobilnych lub stacjonarnych kruszarkach montaż znanych na całym świecie z wysokiej jakości kruszarek stożkowych firmy METSO lub SANDVIK.
-                        
+                        mainImg={images.Crushing5main}
+                        aboutdescription1='CONSTMACH rekomenduje w mobilnych lub stacjonarnych kruszarkach montaż znanych na całym świecie z wysokiej jakości kruszarek stożkowych firmy METSO lub SANDVIK.
+
                         Zapewni to pełną dostępność części zamiennych oraz ułatwi eksploatację i konserwację.
                         
                         Nasza firma montuje w kruszarkach stożkowych firmy METSO lub SANDVIK obudowę o stalowej konstrukcji, platformy, stalowe nogi oraz silniki elektryczne.'
-                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
+                        specification={images.Crushing5SpecificationImg}
+                        mainPlan={images.Crushing5MainPlan}
+                        transportImg={images.Crushing5Transport}
+                        transportDescription='Znajdujące się w naszej ofercie kruszarki stożkowe umożliwiają ograniczenie do minimum kosztów związanych z transportem dzięki modułowej konstrukcji i możliwości transportu w naczepie o zamkniętej obudowie i kontenerze 40 ft OT.'
+                        gallery1={images.Crushing5Gallery1}
+                        gallery2={images.Crushing5Gallery2}
+                        gallery3={images.Crushing5Gallery3}
+                        gallery4={images.Crushing5Gallery4}
+                        gallery5={images.Crushing5Gallery5}
+                        gallery6={images.Crushing5Gallery6}
                     />
                 </Route>
                 <Route path="/KRUSZARKIUDAROWETRZECIEGOSTOPNIA">
                     <Stationary
                         title='KRUSZARKI UDAROWE TRZECIEGO STOPNIA'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutdescription1='Kruszarki udarowe III stopnia świetnie nadają się do kruszenia surowców o średniej twardości, pozbawionych właściwości ściernych zapewniając sześcienny kształt produktu o wielkości 0 – 5 mm (60% przechodzących) podczas jednego cyklu. Zapewniona dodatkowo kontrola nad wielkością produktu i wysoki współczynnik przełożenia gwarantują wydajną pracę w układzie zamkniętym produkując frakcje o małych rozmiarach. Mechanizm hydraulicznego otwierania zapewnia łatwą konserwacją i zmianę ustawień
-
-                        Cechy KRUSZAREK UDAROWYCH III STOPNIA:
+                        mainImg={images.Crushing6main}
+                        aboutdescription1='Kruszarki udarowe III stopnia świetnie nadają się do kruszenia surowców o średniej twardości, pozbawionych właściwości ściernych zapewniając sześcienny kształt produktu o wielkości 0 – 5 mm (60% przechodzących) podczas jednego cyklu. Zapewniona dodatkowo kontrola nad wielkością produktu i wysoki współczynnik przełożenia gwarantują wydajną pracę w układzie zamkniętym produkując frakcje o małych rozmiarach. Mechanizm hydraulicznego otwierania zapewnia łatwą konserwacją i zmianę ustawień'
+                        aboutdescription2='Cechy KRUSZAREK UDAROWYCH III STOPNIA:
                         Wysoki wsp. przełożenia
                         Produkt sześcienny dobrze rozrkuszony
                         Płyta regulacji prędkości kruszenia
                         Wymienne części ulegające zużyciu
                         Hydrauliczna regulacja i mechanizm otwierający'
-                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        aboutdescription3='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia kruszarek udarowych III stopnia lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
+                        specification={images.Crushing6SpecificationImg}
+                        mainPlan={images.Crushing6MainPlan}
+                        transportImg={images.Crushing6Transport}
+                        transportDescription='Znajdujące się w naszej ofercie kruszarki stożkowe umożliwiają ograniczenie do minimum kosztów związanych z transportem dzięki modułowej konstrukcji i możliwości transportu w naczepie o zamkniętej obudowie i kontenerze 40 ft OT.'
+                        gallery1={images.Crushing6Gallery1}
+                        gallery2={images.Crushing6Gallery2}
+                        gallery3={images.Crushing6Gallery3}
+                        gallery4={images.Crushing6Gallery4}
+                        gallery5={images.Crushing6Gallery5}
+                        gallery6={images.Crushing6Gallery6}
                     />
                 </Route>
                 <Route path="/KRUSZARKIUDAROWEZPIONOWYMWAŁEM">
                     <Stationary
                         title='KRUSZARKI UDAROWE Z PIONOWYM WAŁEM'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutdescription1='Kruszarki udarowe z wałem pionowym CONSTMACH VSI są zwane także MASZYNAMI DO WYRABIANIA PIASKU i są stosowane, jako kruszarki III stopnia zapewniając dużą ilość rozdrobnionego surowca oraz sześcienny kształt produktu podawanego z kruszarek II stopnia. Nadają się do przerobu wszelkiego rodzaju surowców, a szczególnie twardych skał takich, jak bazalt i granit o wielkości maks. 45 mm wstępnie rozkruszonych za pomocą kruszarek II stopnia.
-
-                        Cechy KRUSZAREK VSI:
+                        mainImg={images.Crushing7main}
+                        aboutdescription1='Kruszarki udarowe z wałem pionowym CONSTMACH VSI są zwane także MASZYNAMI DO WYRABIANIA PIASKU i są stosowane, jako kruszarki III stopnia zapewniając dużą ilość rozdrobnionego surowca oraz sześcienny kształt produktu podawanego z kruszarek II stopnia. Nadają się do przerobu wszelkiego rodzaju surowców, a szczególnie twardych skał takich, jak bazalt i granit o wielkości maks. 45 mm wstępnie rozkruszonych za pomocą kruszarek II stopnia.'
+                        aboutdescription2='Cechy KRUSZAREK VSI:
                         Cztery zamienne komory kruszenia umożliwiające zmianę typu surowca i specyfikacji produktu
                         Wirnik zmiennej prędkości umożliwiający zmianę typu surowca i specyfikacji produktu
                         Wysoki współczynnik przełożenia
@@ -574,41 +567,37 @@ export default function ProductBox() {
                         Elementy wirnika i kowadła z wysokogatunkowej stali chromowej, wirnik zabezpieczony przed uszkodzeniem i półki na materiał
                         Wysoko-wydajne łożyska wałeczkowe
                         Automatyczny system smarowania'
-                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        specification={images.Crushing7SpecificationImg}
+                        mainPlan={images.Crushing7MainPlan}
+                        transportImg={images.Crushing7Transport}
+                        gallery1={images.Crushing7Gallery1}
+                        gallery2={images.Crushing7Gallery2}
+                        gallery3={images.Crushing7Gallery3}
+                        gallery4={images.Crushing7Gallery4}
+                        gallery5={images.Crushing7Gallery5}
+                        gallery6={images.Crushing7Gallery6}
                     />
                 </Route>
                 <Route path="/PRZENOŚNIKITAŚMOWE">
                     <Stationary
                         title='PRZENOŚNIKI TAŚMOWE'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
+                        mainImg={images.Crushing8main}
                         aboutdescription1='Przenośniki taśmowe CONSTMACH są stosowane w naszych węzłach betoniarskich oraz systemach do kruszenia i przesiewaczach do ważenia, podawania, transportu i składowania surowca. Przenośniki taśmowe CONSTMACH są wyposażone w wysokiej jakości wysokowydajne silniki elektryczne i przekładnie. Dodatkowo posiadają one wysokiej jakości 4 powłokową taśmę kauczukową, rolki o długiej żywotności, powlekane kauczukiem bębny, podesty, trwałą stalową ramę oraz przyciski zatrzymania awaryjnego. Opcjonalnie przenośniki mogą także posiadać zamontowane okapy, aby ograniczyć emisję pyłu do otoczenia. Oprócz przenośników stanowiących podzespoły dostarczanych przez naszą firmę systemów i węzłów betoniarskich, świadczymy także usługi w zakresie produkcji i dostawy przenośników dostosowanych do indywidualnych potrzeb naszych klientów pod kątem wielkości i konstrukcji.'
-                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia przenośników taśmowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
+                        mainPlan={images.Crushing8MainPlan}
+                        transportImg={images.Crushing8Transport}
+                        gallery1={images.Crushing8Gallery1}
+                        gallery2={images.Crushing8Gallery2}
+                        gallery3={images.Crushing8Gallery3}
+                        gallery4={images.Crushing8Gallery4}
+                        gallery5={images.Crushing8Gallery5}
+                        gallery6={images.Crushing8Gallery6}
                     />
                 </Route>
                 <Route path="/PODAJNIKIWIBRACYJNE">
                     <Stationary
                         title='PODAJNIKI WIBRACYJNE'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
+                        mainImg={images.Crushing9main}
                         aboutdescription1='Podajniki wibracyjne z koszem CONSTMACH zapewniają podawanie surowca do kruszarek stanowiących część systemów kruszenia. Podajniki wibracyjne ustawione są przed główną kruszarką, kruszarką udarową I stopnia lub kruszarką szczękową, aby zapewnić surowiec odpowiedniej wielkości i zredukować koszty kruszarek pośrednich, zwiększając wydajność, zapewniając nieprzerwaną pracę systemu oraz jednorodną dystrybucję. Kosze takie posiadają następujące zalety: w przypadku nagłego odrzucenia i oczekiwania przy głównej kruszarce, przenośniki i przesiewacze są przeciążone na skutek nieprzerwanego załadunku.
 
                         Może to spowodować nieprawidłowości podczas kruszenia surowca w kruszarce udarowej, maszynach do wyrabiania piasku, kruszarkach stożkowych i kruszarkach z pionowym wałem powodując uderzenie cieplne. Ponadto takie nagłe przeciążenie ma wpływ na szybsze zużywanie się młota i innych części maszyny a także sam transport materiałów. Dlatego części narażone na zużycie odpowiadają za spadek wydajności nawet o 60% i wyższe koszty konserwacji. Ale to nie wszystko. Części narażone na zużycie to nie tylko części znajdujące się wewnątrz maszyny. Wiele nieprawidłowości jest spowodowanych stosowaną techniką kruszenia a także obsługą taśmy przenośnika i wyposażenia, powodując rozerwanie taśmy, jednostronne wytarcie rolek, zużycie łożysk, wałów bębna i innych części.
@@ -622,200 +611,160 @@ export default function ProductBox() {
                         Transport surowców'
                         aboutdescription2='Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o danych technicznych, transporcie, rysunek techniczny, wymiary kruszarek stożkowych lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH'
                         specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        transportImg={images.Crushing7Transport}
+                        gallery1={images.Crushing9Gallery1}
+                        gallery2={images.Crushing9Gallery2}
+                        gallery3={images.Crushing9Gallery3}
+                        gallery4={images.Crushing9Gallery4}
+                        gallery5={images.Crushing9Gallery5}
+                        gallery6={images.Crushing9Gallery6}
                     />
                 </Route>
                 <Route path="/JC-1MOBILNEKRUSZARKI">
                     <Stationary
                         title='JC-1 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Kruszarka mobilna CONSTMACH JC-1 to idealne rozwiązanie do kruszenia najtwardszych skał o wysokich właściwościach ściernych i zawartości krzemionki (5i02) takich, jak granit, bazalt, kruszywo gabrowe itp. JC-1 jest efektem prac projektowych i wysiłków inżynierów, i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JC-1 zapewnia wydajność na poziomie od 60 do 80 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 550 x 300 mm. Linia jest wyposażona w kruszarkę stożkową Metso HP 100 lub jej odpowiednik. Jednocześnie można otrzymać 3 lub 4 różne frakcje. Aby uzyskać bardziej rozdrobniony surowiec oraz optymalny lub sześcienny kształt, linię wyposażono w mobilną linię do wyrabiania piasku V-70 wyposażoną w kruszarkę VSI. Linia w takiej konfiguracji nosi nazwę JCV-1. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JC-1 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego, jak dźwig, czy ładowarka etc.'
-                        aboutdescription3='JC-1 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JC-1 można obsługiwać za pomocą tabletu. Wymiary JC-1 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej linii do kruszenia JC-1 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH. 
-                        '
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JC1main}
+                        aboutImg1={images.JC1about}
+                        specification={images.JC1SpecificationImg}
+                        mainPlan={images.JC1MainPlan}
+                        transportImg={images.JC1Transport}
+                        gallery1={images.JC1Gallery1}
+                        gallery2={images.JC1Gallery2}
+                        gallery3={images.JC1Gallery3}
+                        gallery4={images.JC1Gallery4}
+                        gallery5={images.JC1Gallery5}
+                        gallery6={images.JC1Gallery6}
                     />
                 </Route>
                 <Route path="/JC-2MOBILNEKRUSZARKI">
                     <Stationary
                         title='JC-2 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Kruszarka mobilna CONSTMACH JC-2 to idealne rozwiązanie do kruszenia najtwardszych skał o wysokich właściwościach ściernych i zawartości krzemionki (5i02) takich, jak granit, bazalt, kruszywo gabrowe itp. JC-2 jest efektem prac projektowych i wysiłków inżynierów, i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JC-2 zapewnia wydajność na poziomie od 120 do 150 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 850 x 600 mm. Linia jest wyposażona w kruszarkę stożkową Metso HP 100 lub jej odpowiednik. Jednocześnie można otrzymać 3 lub 4 różne frakcje. Aby uzyskać bardziej rozdrobniony surowiec oraz sześcienny kształt, linię wyposażono w mobilną linię do wyrabiania piasku V-80 wyposażoną w kruszarkę VSI. Linia w takiej konfiguracji nosi nazwę JCV-2. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JC-2 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez zewnętrznego sprzętu takiego, jak dźwig, czy ładowarka etc. '
-                        aboutdescription3='JC-2 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JC-2 można obsługiwać za pomocą tabletu. Wymiary JC-2 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej linii do kruszenia JC-2 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH. 
-                        '
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JC1main}
+                        aboutImg1={images.JC2about}
+                        specification={images.JC2SpecificationImg}
+                        mainPlan={images.JC2MainPlan}
+                        transportImg={images.JC2Transport}
+                        gallery1={images.JC1Gallery1}
+                        gallery2={images.JC1Gallery2}
+                        gallery3={images.JC1Gallery3}
+                        gallery4={images.JC1Gallery4}
+                        gallery5={images.JC1Gallery5}
+                        gallery6={images.JC1Gallery6}
                     />
                 </Route>
                 <Route path="/JC-3MOBILNEKRUSZARKI">
                     <Stationary
                         title='JC-3 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Mobilna kruszarka i przesiewacz CONSTMACH JC-3 to idealne rozwiązanie do kruszenia najtwardszych skało wysokich właściwościach ściernych i zawartości krzemionki (SiO2) takich, jak granit, bazalt, kruszywo gabrowe itp.. Seria JC-3 jest efektem prac projektowych i wysiłków inżynierów, i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JC-1 zapewnia wydajność na poziomie od 250 do 300 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 850 x 600 mm. Linia jest wyposażona w kruszarkę stożkową Metso HP 200 lub jej odpowiednik. Jednocześnie można otrzymać 3 lub 4 różne frakcje. Aby uzyskać bardziej rozdrobniony surowiec oraz sześcienny kształt, linię wyposażono w mobilną linię do wyrabiania piasku V-80 wyposażoną w kruszarkę V51. Linia w takiej konfiguracji nosi nazwę JCV-3. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JC-3 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego, jak dźwig, czy ładowarka etc. '
-                        aboutdescription3='JC-3 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JC-3 można obsługiwać za pomocą tabletu. Wymiary JC-3 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej linii do kruszenia JC-3 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JC3main}
+                        aboutImg1={images.JC3about}
+                        specification={images.JC3SpecificationImg}
+                        mainPlan={images.JC3MainPlan}
+                        transportImg={images.JC3Transport}
+                        gallery1={images.JC1Gallery1}
+                        gallery2={images.JC1Gallery2}
+                        gallery3={images.JC1Gallery3}
+                        gallery4={images.JC1Gallery4}
+                        gallery5={images.JC1Gallery5}
+                        gallery6={images.JC1Gallery6}
                     />
                 </Route>
                 <Route path="/JCV-1MOBILNEKRUSZARKI">
                     <Stationary
                         title='JCV-1 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Kruszarka CONSTMACH model JCV to połączenie kruszarki mobilnej serii JC-1 i mobilnej linii do wyrabiania piasku serii V. System jest przeznaczony do kruszenia najtwardszych skał typu granit, bazalt etc. a także do zapewnienia drobno rozdrobnionego surowca z ziarnem o sześciennym kształcie. Kruszarka mobilna serii JCV-1 jest efektem prac projektowych i wysiłków inżynierów, i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JCV-1 zapewnia wydajność na poziomie od 60 do 80 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 550 x 300 mm. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JCV-1 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego, jak dźwig, czy ładowarka etc.'
-                        aboutdescription3='JCV-1 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JCV-1 można obsługiwać za pomocą tabletu. Wymiary JCV-1 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej linii do kruszenia JCV-1 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH. 
-                        '
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JCV1main}
+                        aboutImg1={images.JCV1about}
+                        specification={images.JCV1SpecificationImg}
+                        mainPlan={images.JCV1MainPlan}
+                        transportImg={images.JCV1Transport}
+                        gallery1={images.JC1Gallery1}
+                        gallery2={images.JC1Gallery2}
+                        gallery3={images.JC1Gallery3}
+                        gallery4={images.JC1Gallery4}
+                        gallery5={images.JC1Gallery5}
+                        gallery6={images.JC1Gallery6}
                     />
                 </Route>
                 <Route path="/JCV-2MOBILNEKRUSZARKI">
                     <Stationary
                         title='JCV-2 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Mobilna kruszarka CONSTMACH JCV-2 to połączenie mobilnej kruszarki JC-2 oraz mobilnej linii do wyrabiania piasku V-80. System jest przeznaczony do kruszenia najtwardszych skał typu granit, bazalt etc. a także do zapewnienia drobno rozdrobnionego surowca z ziarnem o sześciennym kształcie. Kruszarka mobilna serii JCV-2 jest efektem prac projektowych i wysiłków inżynierów, i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JCV-2 zapewnia wydajność na poziomie od 120 do 150 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 850 x 600 mm. Wyposażona jest w kruszarkę stożkową Metso HP 200 lub odpowiednik oraz VSI model VSI-800-CR. Linia umożliwia produkcję 5 różnych frakcji jednocześnie.Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. In case of need, it is possible to adapt an electric generator to chassis of the plant. JCV-2 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego, jak dźwig, czy ładowarka etc.'
-                        aboutdescription3='JCV-2 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JCV-2 można obsługiwać za pomocą tabletu. Wymiary JCV-2 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej kruszarki JCV-2 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JCV1main}
+                        aboutImg1={images.JCV2about}
+                        specification={images.JCV2SpecificationImg}
+                        mainPlan={images.JCV2MainPlan}
+                        transportImg={images.JCV2Transport}
+                        gallery1={images.JC1Gallery1}
+                        gallery2={images.JC1Gallery2}
+                        gallery3={images.JC1Gallery3}
+                        gallery4={images.JC1Gallery4}
+                        gallery5={images.JC1Gallery5}
+                        gallery6={images.JC1Gallery6}
                     />
                 </Route>
                 <Route path="/JCV-3MOBILNEKRUSZARKI">
                     <Stationary
                         title='JCV-3 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Mobilna kruszarka na trzech podwoziach CONSTMACH JCV-3 to połączenie mobilnej kruszarki X-3 oraz mobilnej maszyny do wyrabiania piasku V-90. System jest przeznaczony do kruszenia najtwardszych skał typu granit, bazalt etc. a także do zapewnienia drobno rozdrobnionego surowca z ziarnem o sześciennym kształcie. JCV-3 jest efektem prac projektowych i wysiłków inżynierów, i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JCV-3 zapewnia wydajność na poziomie od 250 do 300 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 1050 x 800 mm. Wyposażona jest w kruszarkę stożkową Metso HP 300 lub odpowiednik oraz VSI model V51-900-CR. Linia umożliwia produkcję 5 różnych frakcji jednocześnie. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JCV-3 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego, jak dźwig, czy ładowarka etc.'
-                        aboutdescription3='JCV-3 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JCV-3 można obsługiwać za pomocą tabletu. Wymiary JCV-3 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce pracy. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej kruszarki JCV-3 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JCV1main}
+                        aboutImg1={images.JCV3about}
+                        specification={images.JCV3SpecificationImg}
+                        mainPlan={images.JCV3MainPlan}
+                        transportImg={images.JCV3Transport}
+                        gallery1={images.JC1Gallery1}
+                        gallery2={images.JC1Gallery2}
+                        gallery3={images.JC1Gallery3}
+                        gallery4={images.JC1Gallery4}
+                        gallery5={images.JC1Gallery5}
+                        gallery6={images.JC1Gallery6}
                     />
                 </Route>
                 <Route path="/JT-1MOBILNEKRUSZARKI">
                     <Stationary
                         title='JT-1 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Kruszarka z przesiewaczem JT-1 jest przeznaczona do kruszenia surowców o średniej twardości takich, jak wapień, kamienie rzeczne, dolomit etc. JT-1 jest efektem prac projektowych i wysiłków inżynierów, i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JT-1 zapewnia wydajność na poziomie od 60 do 80 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 600 x 350 mm. Specjalnie skonstruowana kruszarka udarowa III stopnia umożliwia uzyskanie frakcji o wyjątkowo sześciennym kształcie pożądanym szczególnie podczas produkcji betonu. Jednocześnie można otrzymać 3 lub 4 różne frakcje. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JT-1 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego jak dźwig, czy ładowarka etc.'
-                        aboutdescription3='JT-1 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JT-1 można obsługiwać za pomocą tabletu. Wymiary JT-1 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej linii do kruszenia JT-1 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH.'
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JT1main}
+                        aboutImg1={images.JT1about}
+                        specification={images.JT1SpecificationImg}
+                        mainPlan={images.JT1MainPlan}
+                        transportImg={images.JT1Transport}
+                        gallery1={images.JT1Gallery1}
+                        gallery2={images.JT1Gallery2}
+                        gallery3={images.JT1Gallery3}
+                        gallery4={images.JT1Gallery4}
+                        gallery5={images.JT1Gallery5}
+                        gallery6={images.JT1Gallery6}
                     />
                 </Route>
                 <Route path="/JS-2MOBILNEKRUSZARKI">
                     <Stationary
                         title='JS-2 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Mobilna kruszarka CONSTMACH JS-2 to idealne rozwiązanie do kruszenia średnio twardych materiałów takich, jak wapień, kamienie rzeczne, dolomit, bazalt itp. Seria JS-2 jest efektem prac projektowych inżynierów i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JS-2 zapewnia wydajność na poziomie od 120 do 150 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 850 x 600 mm. Kruszarka udarowa II stopnia posiada specjalną konstrukcję zapewniającą uzyskanie rozdrobnionego surowca o doskonałym sześciokątnym kształcie, który jest pożądany szczególnie podczas produkcji betonu. Jednocześnie można uzyskać 3 lub 4 różne frakcje. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JS-2 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego, jak dźwig, czy ładowarka etc. JS-2 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JS-2 można obsługiwać za pomocą tabletu.'
-                        aboutdescription3='Wymiary JS-2 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej kruszarki JS-2 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH. '
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JS2main}
+                        aboutImg1={images.JS2about}
+                        specification={images.JS2SpecificationImg}
+                        mainPlan={images.JS2MainPlan}
+                        transportImg={images.JS2Transport}
+                        gallery1={images.JS2Gallery1}
+                        gallery2={images.JS2Gallery2}
+                        gallery3={images.JS2Gallery3}
+                        gallery4={images.JS2Gallery4}
+                        gallery5={images.JS2Gallery5}
+                        gallery6={images.JS2Gallery6}
                     />
                 </Route>
                 <Route path="/JS-3MOBILNEKRUSZARKI">
                     <Stationary
                         title='JS-3 MOBILNE KRUSZARKI'
-                        mainImg={images.Stationary240main}
-                        aboutImg1={images.Stationary240about1}
-                        aboutImg2={images.Stationary240about1}
-                        aboutdescription1='Mobilna kruszarka CONSTMACH JS-3 to idealne rozwiązanie do kruszenia surowców o niskiej lub średniej twardości takich, jak wapień, kamienie rzeczne, dolomit, bazalt etc. 5-3 jest efektem prac projektowych inżynierów i została skonstruowana z wysokiej jakości materiałów oraz komponentów charakteryzujących się długą żywotnością i doskonałym wykonaniem.'
-                        aboutdescription2='JS-3 zapewnia wydajność na poziomie od 250 do 300 t/h zależnie od stopnia twardości kruszonego surowca. Maks. wymiary surowca to 850 x 600 mm. Kruszarka udarowa II stopnia posiada specjalną konstrukcję zapewniającą uzyskanie rozdrobnionego surowca o doskonałym sześciokątnym kształcie, który jest pożądany szczególnie podczas produkcji betonu. Jednocześnie można uzyskać 3 lub 4 różne frakcje. Zależnie od potrzeb, do podwozia można zamontować także generator zasilania. JS-3 to urządzenie przyjazne dla użytkownika, które cechuje łatwy do wykonania montaż oraz krótki czas uruchamiania. Zależnie od potrzeb, istnieje możliwość wyposażenia zasobnika kosza zasypowego oraz przenośników w mechanizm hydraulicznego otwierania umożliwiający pracę kruszarki bez konieczności użycia dodatkowego sprzętu takiego, jak dźwig, czy ładowarka etc.'
-                        aboutdescription3='JS-3 jest wyposażona w nowoczesną automatykę sterującą w tym najwyższej klasy komponenty marki SIEMENS-SCHNEIDER oraz PLC. Kruszarkę JS-3 można obsługiwać za pomocą tabletu. Wymiary JS-3 są zgodne z międzynarodowymi przepisami o transporcie drogowym, co zapewnia łatwy transport z jednego na drugie miejsce. Kliknij odpowiednią zakładkę, aby wyświetlić dodatkowe informacje o konfiguracji, transporcie oraz zdjęcia mobilnej kruszarki JS-3 lub kliknij zakładkę ZAPYTANIE, aby wysłać zapytanie do CONSTMACH. '
-                        specification={images.Stationary240SpecificationImg}
-                        mainPlan={images.Stationary240MainPlan}
-                        transportImg={images.StationaryTransport}
-                        gallery1={images.Stationary240Gallery1}
-                        gallery2={images.Stationary240Gallery2}
-                        gallery3={images.Stationary240Gallery3}
-                        gallery4={images.Stationary240Gallery4}
-                        gallery5={images.Stationary240Gallery5}
-                        gallery6={images.Stationary240Gallery6}
+                        mainImg={images.JS3main}
+                        aboutImg1={images.JS3about}
+                        specification={images.JS3SpecificationImg}
+                        mainPlan={images.JS3MainPlan}
+                        transportImg={images.JS3Transport}
+                        gallery1={images.JS2Gallery1}
+                        gallery2={images.JS2Gallery2}
+                        gallery3={images.JS2Gallery3}
+                        gallery4={images.JS2Gallery4}
+                        gallery5={images.JS2Gallery5}
+                        gallery6={images.JS2Gallery6}
                     />
                 </Route>
-                <Route path="/V-70MOBILNEWĘZŁYDOPRODUKCJIPIASKU">
+                {/*<Route path="/V-70MOBILNEWĘZŁYDOPRODUKCJIPIASKU">
                     <Stationary
                         title='V-70 MOBILNE WĘZŁY DO PRODUKCJI PIASKU'
                         mainImg={images.Stationary240main}
