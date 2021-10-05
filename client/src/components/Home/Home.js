@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import HomeContact from './HomeContact/HomeContact';
 import FAQ from './FAQ/FAQ.js';
+import MobicomImage from './mobicom-30-home.jpeg'
 
 export default function Home() {
     return (
@@ -26,8 +27,12 @@ export default function Home() {
                     <div className="home-title-box"><p>Najczęściej zadawane pytania</p></div>
                     <FAQ />
                 </div>
-                <div className="home-latest-news home-box">
-                    <div className="home-title-box"><p>Ostatnie zrealizowane projekty</p></div>
+                <div className="home-mobicom home-box">
+                    <div className="home-title-box"><p>Zobacz MOBICOM 30</p></div>
+                    <a href="https://www.youtube.com/">
+                        <button>ZOBACZ</button>
+                        <img src={MobicomImage} alt="img" />
+                    </a>
                 </div>
             </div>
         </>

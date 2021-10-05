@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: dunbar-tall, sans-serif;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #323A45;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.footer h3 {
+  color: #6EB2BC;
+  font-size: 23px;
+}
+
+.footer p {
+  font-size: 18px;
+}
+
+.footer .about {
+  width: 20%;
+  height: auto;
+}
+
+.footer .icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer .icon :hover {
+  color: #6EB2BC;
+}
+/*# sourceMappingURL=Footer.css.map */

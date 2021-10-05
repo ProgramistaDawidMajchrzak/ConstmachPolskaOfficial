@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=Contact.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: dunbar-tall, sans-serif;
+}
+
+.contact-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-container .contact-localization {
+  width: 800px;
+  height: 400px;
+  margin: 50px 100px;
+}
+
+.contact-container .contact-localization h3 {
+  color: #323A45;
+}
+
+.contact-container .contact-localization .icon {
+  color: #323A45;
+}
+
+.contact-container .contact-localization .social-bar .icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.contact-container .contact-localization .social-bar .icon :hover {
+  color: #6EB2BC;
+}
+
+.contact-container .contact-localization .phone-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #323A45;
+}
+
+.contact-container .contact-localization .mail-bar {
+  color: #323A45;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-container .contact-localization p {
+  color: #323A45;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.contact-container .contact-form {
+  width: 600px;
+  height: 400px;
+  margin: 50px 100px;
+}
+/*# sourceMappingURL=Contact.css.map */

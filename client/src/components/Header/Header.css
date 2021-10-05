@@ -1,24 +1,33 @@
 .logo-container {
-  height: 150px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
 }
 
-.logo-container img {
+.logo-container .header-logo {
   width: auto;
   height: 100px;
+  padding: 0 40px;
 }
 
 .logo-container .slider {
-  width: 1000px;
-  height: 90%;
+  margin-right: 200px;
+  height: 250px;
+  width: auto;
+  overflow: hidden;
+}
+
+.logo-container .slider img {
+  height: 250px;
+  width: auto;
 }
 
 @media screen and (max-width: 1200px) {

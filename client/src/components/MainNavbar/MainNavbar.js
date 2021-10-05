@@ -8,7 +8,6 @@ export default function MainNavbar() {
             <ul>
                 <li><NavLink exact to='/'>Start</NavLink></li>
                 <li><NavLink to='/products'>Produkty</NavLink></li>
-                <li><NavLink to='/news'>Nowości</NavLink></li>
                 <li><NavLink to='/contact'>Kontakt</NavLink></li>
             </ul>
         </div>

@@ -21,6 +21,20 @@ body {
   width: 44%;
   height: auto;
   margin: 40px 0 0 4%;
+  position: relative;
+}
+
+.home-container .home-box button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  color: #6EB2BC;
+  border-color: #6EB2BC;
+  background-color: transparent;
+  font-size: 20px;
 }
 
 .home-container .home-title-box {
@@ -35,6 +49,17 @@ body {
   color: #ffffff;
   font-size: 22px;
   padding: 10px 20px;
+}
+
+.home-container img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  opacity: .6;
 }
 
 .home-container p {

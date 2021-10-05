@@ -1,0 +1,59 @@
+@import '../../App.scss';
+
+.contact-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+    .contact-localization {
+        width: 800px;
+        height: 400px;
+        margin: 50px 100px;
+
+        h3 {
+            color: $secondaryColor;
+        }
+
+        .icon {
+            color: $secondaryColor;
+        }
+
+        .social-bar {
+
+            .icon {
+                margin-right: 10px;
+                cursor: pointer;
+
+                :hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+
+        .phone-bar {
+            display: flex;
+            align-items: center;
+            color: $secondaryColor;
+
+        }
+
+        .mail-bar {
+            color: $secondaryColor;
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            color: $secondaryColor;
+            margin-left: 5px;
+            font-size: 13px;
+        }
+    }
+
+    .contact-form {
+        width: 600px;
+        height: 400px;
+        margin: 50px 100px;
+    }
+}
